@@ -207,4 +207,8 @@ marimo/_lsp/
 __marimo__/
 
 # Json
-.json
+*.json
+data/*
+
+# MCAP
+output/*
