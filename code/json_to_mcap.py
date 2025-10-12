@@ -75,7 +75,7 @@ def euler_to_quaternion(yaw, pitch, roll):
     return [qx, qy, qz, qw]
 
 
-def convert_to_laserscan(record, timestamp=None):
+def get_laserscan(record, timestamp=None):
     scan = LaserScan(
         frame_id="laser_frame",
         timestamp=timestamp,
@@ -86,7 +86,7 @@ def convert_to_laserscan(record, timestamp=None):
     return scan
 
 
-def convert_to_poseinframe(record):
+def get_pose_tf_timestamp(record):
     q = euler_to_quaternion(record["pose"]["theta"], 0, 0)
     stamp = int(record["pose"]["stamp"])
     timestamp = Timestamp(sec=int(stamp//1e9), nsec=int(stamp % 1e9))
@@ -135,8 +135,8 @@ def main():
         for i in range(data["num_records"]):
             print(f"  Record {i+1} of {data['num_records']}")
 
-            pose, tf, timestamp = convert_to_poseinframe(data["data"][i])
-            laser_scan = convert_to_laserscan(
+            pose, tf, timestamp = get_pose_tf_timestamp(data["data"][i])
+            laser_scan = get_laserscan(
                 data["data"][i], timestamp=timestamp)
 
             print(f"    Timestamp: {timestamp}")
