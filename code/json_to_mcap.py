@@ -14,7 +14,7 @@ from foxglove import Channel, open_mcap
 
 
 ROOT_FOLDER = os.path.join(os.path.abspath(os.path.dirname(__file__)), "..")
-DATA_FOLDER = os.path.join(ROOT_FOLDER, "data")
+DATA_FOLDER = os.path.join(ROOT_FOLDER, "data", "irnd-json")
 OUTPUT_FOLDER = os.path.join(ROOT_FOLDER, "output")
 
 LIVE_STREAM = False
@@ -42,9 +42,10 @@ def euler_to_quaternion(yaw, pitch, roll):
     return [qx, qy, qz, qw]
 
 
-def convert_to_laserscan(record):
+def convert_to_laserscan(record, timestamp=None):
     scan = LaserScan(
         frame_id="laser_frame",
+        timestamp=timestamp,
         start_angle=min(record["angles"]),
         end_angle=max(record["angles"]),
         ranges=record["dists"]
@@ -54,8 +55,11 @@ def convert_to_laserscan(record):
 
 def convert_to_poseinframe(record):
     q = euler_to_quaternion(record["pose"]["theta"], 0, 0)
+    stamp = int(record["pose"]["stamp"])
+    timestamp = Timestamp(sec=int(stamp//1e9), nsec=int(stamp % 1e9))
     pose = PoseInFrame(
         frame_id="odom",
+        timestamp=timestamp,
         pose=Pose(
             position=Vector3(
                 x=record["pose"]["x"],
@@ -72,6 +76,7 @@ def convert_to_poseinframe(record):
     tf = FrameTransform(
         child_frame_id="laser_frame",
         parent_frame_id="odom",
+        timestamp=timestamp,
         translation=Vector3(
             x=record["pose"]["x"],
             y=record["pose"]["y"],
@@ -83,7 +88,7 @@ def convert_to_poseinframe(record):
             w=q[3]
         )
     )
-    return pose, tf
+    return pose, tf, timestamp
 
 
 bool_schema = {
@@ -120,32 +125,49 @@ file_channel = Channel(topic="file", schema=speed_schema)
 
 files = os.listdir(DATA_FOLDER)
 n_files = len(files)
-t = 0
-for n in range(1, n_files+1):
-    print(f"Processing file {n} of {n_files}")
-    file = f"{n}.json"
-    filepath = os.path.join(DATA_FOLDER, file)
-    with open(filepath, 'r', encoding="utf-8") as f:
-        data = json.load(f)
-    for i in range(data["num_records"]):
-        print(f"  Record {i+1} of {data['num_records']}")
-        timestamp = Timestamp(sec=int(t))
-        laser_channel.log(convert_to_laserscan(
-            data["data"][i]), log_time=int(t*1e8))
-        pose_channel.log(convert_to_poseinframe(
-            data["data"][i])[0], log_time=int(t*1e8))
-        tf_channel.log(convert_to_poseinframe(
-            data["data"][i])[1], log_time=int(t*1e8))
-        brake_channel.log(
-            {"value": data["data"][i]["brake"]}, log_time=int(t*1e8))
-        horn_channel.log(
-            {"value": data["data"][i]["horn"]}, log_time=int(t*1e8))
-        direction_channel.log(
-            {"value": data["data"][i]["direction"]}, log_time=int(t*1e8))
-        file_channel.log({"value": file}, log_time=int(t*1e8))
-        speed_channel.log(
-            {"left": float(data["data"][i]["counts_left"]), "right": float(data["data"][i]["counts_right"])}, log_time=int(t*1e8))
-        t += 1
 
-        if LIVE_STREAM:
-            time.sleep(0.1)
+
+def main():
+    for n in range(1, n_files+1):
+        print(f"Processing file {n} of {n_files}")
+        prev_ts_ns = 0
+        file = f"{n}.json"
+        filepath = os.path.join(DATA_FOLDER, file)
+        with open(filepath, 'r', encoding="utf-8") as f:
+            data = json.load(f)
+        for i in range(data["num_records"]):
+            print(f"  Record {i+1} of {data['num_records']}")
+
+            pose, tf, timestamp = convert_to_poseinframe(data["data"][i])
+            laser_scan = convert_to_laserscan(
+                data["data"][i], timestamp=timestamp)
+
+            print(f"    Timestamp: {timestamp}")
+
+            ts_ns = int(timestamp.sec*1e9 + timestamp.nsec)
+            if prev_ts_ns == 0:
+                prev_ts_ns = ts_ns
+
+            laser_channel.log(laser_scan, log_time=ts_ns)
+            pose_channel.log(pose, log_time=ts_ns)
+            tf_channel.log(tf, log_time=ts_ns)
+
+            brake_channel.log(
+                {"value": data["data"][i]["brake"]}, log_time=ts_ns)
+            horn_channel.log(
+                {"value": data["data"][i]["horn"]}, log_time=ts_ns)
+            direction_channel.log(
+                {"value": data["data"][i]["direction"]}, log_time=ts_ns)
+            file_channel.log({"value": file}, log_time=ts_ns)
+            speed_channel.log(
+                {"left": float(data["data"][i]["counts_left"]),
+                 "right": float(data["data"][i]["counts_right"])}, log_time=ts_ns)
+
+            if LIVE_STREAM:
+                time.sleep((ts_ns-prev_ts_ns) / 1e9)
+
+            prev_ts_ns = ts_ns
+
+
+if __name__ == "__main__":
+    main()
