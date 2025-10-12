@@ -16,6 +16,7 @@ from foxglove import Channel, open_mcap
 ROOT_FOLDER = os.path.join(os.path.abspath(os.path.dirname(__file__)), "..")
 DATA_FOLDER = os.path.join(ROOT_FOLDER, "data", "irnd-json")
 OUTPUT_FOLDER = os.path.join(ROOT_FOLDER, "output")
+N_FILES = len(os.listdir(DATA_FOLDER))
 
 LIVE_STREAM = False
 RECORD_MCAP = True
@@ -26,6 +27,38 @@ if LIVE_STREAM:
 if RECORD_MCAP:
     mcap_file = open_mcap(os.path.join(
         OUTPUT_FOLDER, "irdn.mcap"), allow_overwrite=True)
+
+
+bool_schema = {
+    "type": "object",
+    "properties": {
+        "value": {"type": "boolean"}
+    }
+}
+
+text_schema = {
+    "type": "object",
+    "properties": {
+        "value": {"type": "string"}
+    }
+}
+
+speed_schema = {
+    "type": "object",
+    "properties": {
+        "left": {"type": "number"},
+        "right": {"type": "number"}
+    }
+}
+
+laser_channel = LaserScanChannel(topic="laser_scan")
+pose_channel = PoseInFrameChannel(topic="pose")
+tf_channel = FrameTransformChannel(topic="tf")
+brake_channel = Channel(topic="brake", schema=bool_schema)
+horn_channel = Channel(topic="horn", schema=bool_schema)
+direction_channel = Channel(topic="direction", schema=text_schema)
+speed_channel = Channel(topic="speed", schema=speed_schema)
+file_channel = Channel(topic="file", schema=speed_schema)
 
 
 def euler_to_quaternion(yaw, pitch, roll):
@@ -91,45 +124,9 @@ def convert_to_poseinframe(record):
     return pose, tf, timestamp
 
 
-bool_schema = {
-    "type": "object",
-    "properties": {
-        "value": {"type": "boolean"}
-    }
-}
-
-text_schema = {
-    "type": "object",
-    "properties": {
-        "value": {"type": "string"}
-    }
-}
-
-speed_schema = {
-    "type": "object",
-    "properties": {
-        "left": {"type": "number"},
-        "right": {"type": "number"}
-    }
-}
-
-laser_channel = LaserScanChannel(topic="laser_scan")
-pose_channel = PoseInFrameChannel(topic="pose")
-tf_channel = FrameTransformChannel(topic="tf")
-brake_channel = Channel(topic="brake", schema=bool_schema)
-horn_channel = Channel(topic="horn", schema=bool_schema)
-direction_channel = Channel(topic="direction", schema=text_schema)
-speed_channel = Channel(topic="speed", schema=speed_schema)
-file_channel = Channel(topic="file", schema=speed_schema)
-
-
-files = os.listdir(DATA_FOLDER)
-n_files = len(files)
-
-
 def main():
-    for n in range(1, n_files+1):
-        print(f"Processing file {n} of {n_files}")
+    for n in range(1, N_FILES+1):
+        print(f"Processing file {n} of {N_FILES}")
         prev_ts_ns = 0
         file = f"{n}.json"
         filepath = os.path.join(DATA_FOLDER, file)
