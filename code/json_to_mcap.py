@@ -14,7 +14,7 @@ from foxglove import Channel, open_mcap
 
 
 ROOT_FOLDER = os.path.join(os.path.abspath(os.path.dirname(__file__)), "..")
-DATA_FOLDER = os.path.join(ROOT_FOLDER, "data", "irnd-json")
+DATA_FOLDER = os.path.join(ROOT_FOLDER, "data", "irnd_json")
 OUTPUT_FOLDER = os.path.join(ROOT_FOLDER, "output")
 N_FILES = len(os.listdir(DATA_FOLDER))
 
