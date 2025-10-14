@@ -7,12 +7,11 @@ from process_lidar import generate_lidar_viz
 from process_weather import generate_weather_viz
 
 
+# Folders
 ROOT_FOLDER = os.path.abspath(os.path.join(
     os.path.dirname(__file__), '..', '..'))
 DATA_FOLDER = os.path.join(ROOT_FOLDER, "data", "rehearse_derain")
-
 SEQUENCES = ["051"]
-
 OUTPUT_FOLDER = os.path.join(ROOT_FOLDER, "output")
 os.makedirs(OUTPUT_FOLDER, exist_ok=True)
 

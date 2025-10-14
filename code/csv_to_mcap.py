@@ -1,5 +1,6 @@
 import os
 import csv
+import numpy as np
 import math
 
 from foxglove import open_mcap
@@ -29,6 +30,7 @@ from foxglove.channels import (
     SceneUpdateChannel
 )
 
+# Define paths
 ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 CSV_FILE = os.path.join(ROOT_DIR, "data", "dirnd_csv",
                         "autonomous_navigation_dataset.csv")
@@ -48,19 +50,16 @@ COLOR_BY_RESULT = {
 def rpy_to_quaternion(roll: float, pitch: float, yaw: float) -> tuple[float, float, float, float]:
     """Convert roll, pitch, yaw angles to quaternion."""
 
-    cy = math.cos(yaw * 0.5)
-    sy = math.sin(yaw * 0.5)
-    cr = math.cos(roll * 0.5)
-    sr = math.sin(roll * 0.5)
-    cp = math.cos(pitch * 0.5)
-    sp = math.sin(pitch * 0.5)
+    qx = np.sin(roll/2) * np.cos(pitch/2) * np.cos(yaw/2) - \
+        np.cos(roll/2) * np.sin(pitch/2) * np.sin(yaw/2)
+    qy = np.cos(roll/2) * np.sin(pitch/2) * np.cos(yaw/2) + \
+        np.sin(roll/2) * np.cos(pitch/2) * np.sin(yaw/2)
+    qz = np.cos(roll/2) * np.cos(pitch/2) * np.sin(yaw/2) - \
+        np.sin(roll/2) * np.sin(pitch/2) * np.cos(yaw/2)
+    qw = np.cos(roll/2) * np.cos(pitch/2) * np.cos(yaw/2) + \
+        np.sin(roll/2) * np.sin(pitch/2) * np.sin(yaw/2)
 
-    w = cy * cr * cp + sy * sr * sp
-    x = cy * sr * cp - sy * cr * sp
-    y = cy * cr * sp + sy * sr * cp
-    z = sy * cr * cp - cy * sr * sp
-
-    return (x, y, z, w)
+    return [qx, qy, qz, qw]
 
 
 def open_csv(file_path: str) -> list[dict]:

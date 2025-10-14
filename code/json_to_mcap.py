@@ -13,13 +13,16 @@ from foxglove.channels import LaserScanChannel, PoseInFrameChannel, FrameTransfo
 from foxglove import Channel, open_mcap
 
 
+# Define folders
 ROOT_FOLDER = os.path.join(os.path.abspath(os.path.dirname(__file__)), "..")
 DATA_FOLDER = os.path.join(ROOT_FOLDER, "data", "irnd_json")
 OUTPUT_FOLDER = os.path.join(ROOT_FOLDER, "output")
 N_FILES = len(os.listdir(DATA_FOLDER))
 
+# Options
 LIVE_STREAM = False
 RECORD_MCAP = True
+
 
 if LIVE_STREAM:
     server = foxglove.start_server()
@@ -28,7 +31,7 @@ if RECORD_MCAP:
     mcap_file = open_mcap(os.path.join(
         OUTPUT_FOLDER, "irdn.mcap"), allow_overwrite=True)
 
-
+# Define schemas and channels
 bool_schema = {
     "type": "object",
     "properties": {
@@ -61,7 +64,8 @@ speed_channel = Channel(topic="speed", schema=speed_schema)
 file_channel = Channel(topic="file", schema=speed_schema)
 
 
-def euler_to_quaternion(yaw, pitch, roll):
+def euler_to_quaternion(roll, pitch, yaw) -> list:
+    """ Convert Euler angles to Quaternion """
 
     qx = np.sin(roll/2) * np.cos(pitch/2) * np.cos(yaw/2) - \
         np.cos(roll/2) * np.sin(pitch/2) * np.sin(yaw/2)
@@ -75,7 +79,8 @@ def euler_to_quaternion(yaw, pitch, roll):
     return [qx, qy, qz, qw]
 
 
-def get_laserscan(record, timestamp=None):
+def get_laserscan(record, timestamp=None) -> LaserScan:
+    """ Convert a record to a LaserScan message """
     scan = LaserScan(
         frame_id="laser_frame",
         timestamp=timestamp,
@@ -86,8 +91,9 @@ def get_laserscan(record, timestamp=None):
     return scan
 
 
-def get_pose_tf_timestamp(record):
-    q = euler_to_quaternion(record["pose"]["theta"], 0, 0)
+def get_pose_tf_timestamp(record) -> tuple[PoseInFrame, FrameTransform, Timestamp]:
+    """ Convert a record to a PoseInFrame, FrameTransform and Timestamp """
+    q = euler_to_quaternion(0, 0, record["pose"]["theta"])
     stamp = int(record["pose"]["stamp"])
     timestamp = Timestamp(sec=int(stamp//1e9), nsec=int(stamp % 1e9))
     pose = PoseInFrame(
@@ -124,7 +130,8 @@ def get_pose_tf_timestamp(record):
     return pose, tf, timestamp
 
 
-def main():
+def main() -> None:
+    # Iterate over files
     for n in range(1, N_FILES+1):
         print(f"Processing file {n} of {N_FILES}")
         prev_ts_ns = 0
@@ -132,6 +139,7 @@ def main():
         filepath = os.path.join(DATA_FOLDER, file)
         with open(filepath, 'r', encoding="utf-8") as f:
             data = json.load(f)
+        # Iterate over records
         for i in range(data["num_records"]):
             print(f"  Record {i+1} of {data['num_records']}")
 
