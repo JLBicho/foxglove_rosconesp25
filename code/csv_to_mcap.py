@@ -3,7 +3,7 @@ import csv
 import numpy as np
 import math
 
-from foxglove import open_mcap
+import foxglove
 from foxglove import Channel
 from foxglove.schemas import (
     Pose,
@@ -151,9 +151,8 @@ def get_line_scene(row, pts: list) -> tuple[SceneEntity, list]:
 
 
 def generate_mcap() -> None:
-    open_mcap(
+    writer = foxglove.open_mcap(
         OUTPUT_FILE, allow_overwrite=True)
-
     data = open_csv(CSV_FILE)
 
     # A channel will be created for each run_id
@@ -217,12 +216,15 @@ def generate_mcap() -> None:
 
         # Clear previous data if 'run_id' has changed
         if prev_id != row['run_id']:
+            print("Clearing previous data for new run_id")
             scene_entities[row["target"]].clear()
             prev_position = (0, 0)
 
         # Get the pose, speed and frame for the current row
         pose, speed, frame = get_pose_and_speed(
             timestamp, row, prev_ts, prev_position)
+        print(
+            f"Run ID: {row['run_id']}, Timestamp: {ts}, Position: ({row['x']}, {row['y']}), Speed: {speed:.2f} m/s")
 
         # Log the pose, poses (path), frame and speed
         pose_stamped = PoseInFrame(
@@ -290,6 +292,8 @@ def generate_mcap() -> None:
         {"results": target_results}, log_time=int(0*1e9))
     results_channel.log(
         results_count, log_time=int(0*1e9))
+
+    writer.close()
 
 
 if __name__ == "__main__":
