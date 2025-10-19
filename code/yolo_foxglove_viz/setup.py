@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            "yolo_to_foxglove = yolo_foxglove_viz.yolo_viz:main",
         ],
     },
 )
