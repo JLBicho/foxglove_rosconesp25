@@ -1,0 +1,7251 @@
+{
+  "configById": {
+    "3D!hj59ng": {
+      "cameraState": {
+        "perspective": true,
+        "distance": 25.847108697976445,
+        "phi": 68.06156184334779,
+        "thetaOffset": 38.66138410618034,
+        "targetOffset": [
+          2.732965207681667,
+          4.377708094805565,
+          5.464444876745387e-17
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "targetOrientation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "fovy": 45,
+        "near": 0.5,
+        "far": 5000
+      },
+      "followMode": "follow-pose",
+      "scene": {
+        "transforms": {
+          "lineWidth": 0.1
+        },
+        "syncCamera": false
+      },
+      "transforms": {
+        "frame:odom": {
+          "visible": true
+        },
+        "frame:id_1": {
+          "visible": true
+        },
+        "frame:id_10": {
+          "visible": false
+        },
+        "frame:id_100": {
+          "visible": false
+        },
+        "frame:id_11": {
+          "visible": false
+        },
+        "frame:id_12": {
+          "visible": false
+        },
+        "frame:id_13": {
+          "visible": false
+        },
+        "frame:id_14": {
+          "visible": false
+        },
+        "frame:id_15": {
+          "visible": false
+        },
+        "frame:id_16": {
+          "visible": false
+        },
+        "frame:id_17": {
+          "visible": false
+        },
+        "frame:id_18": {
+          "visible": false
+        },
+        "frame:id_19": {
+          "visible": false
+        },
+        "frame:id_2": {
+          "visible": false
+        },
+        "frame:id_20": {
+          "visible": false
+        },
+        "frame:id_21": {
+          "visible": false
+        },
+        "frame:id_22": {
+          "visible": false
+        },
+        "frame:id_23": {
+          "visible": false
+        },
+        "frame:id_24": {
+          "visible": false
+        },
+        "frame:id_25": {
+          "visible": false
+        },
+        "frame:id_26": {
+          "visible": false
+        },
+        "frame:id_27": {
+          "visible": false
+        },
+        "frame:id_28": {
+          "visible": false
+        },
+        "frame:id_29": {
+          "visible": false
+        },
+        "frame:id_3": {
+          "visible": false
+        },
+        "frame:id_30": {
+          "visible": false
+        },
+        "frame:id_31": {
+          "visible": false
+        },
+        "frame:id_32": {
+          "visible": false
+        },
+        "frame:id_33": {
+          "visible": false
+        },
+        "frame:id_34": {
+          "visible": false
+        },
+        "frame:id_35": {
+          "visible": false
+        },
+        "frame:id_36": {
+          "visible": false
+        },
+        "frame:id_37": {
+          "visible": false
+        },
+        "frame:id_38": {
+          "visible": false
+        },
+        "frame:id_39": {
+          "visible": false
+        },
+        "frame:id_4": {
+          "visible": false
+        },
+        "frame:id_40": {
+          "visible": true
+        },
+        "frame:id_41": {
+          "visible": false
+        },
+        "frame:id_42": {
+          "visible": false
+        },
+        "frame:id_43": {
+          "visible": false
+        },
+        "frame:id_44": {
+          "visible": false
+        },
+        "frame:id_45": {
+          "visible": false
+        },
+        "frame:id_46": {
+          "visible": false
+        },
+        "frame:id_47": {
+          "visible": false
+        },
+        "frame:id_48": {
+          "visible": false
+        },
+        "frame:id_49": {
+          "visible": false
+        },
+        "frame:id_5": {
+          "visible": false
+        },
+        "frame:id_50": {
+          "visible": false
+        },
+        "frame:id_51": {
+          "visible": false
+        },
+        "frame:id_52": {
+          "visible": false
+        },
+        "frame:id_53": {
+          "visible": false
+        },
+        "frame:id_54": {
+          "visible": true
+        },
+        "frame:id_55": {
+          "visible": false
+        },
+        "frame:id_56": {
+          "visible": false
+        },
+        "frame:id_57": {
+          "visible": false
+        },
+        "frame:id_58": {
+          "visible": false
+        },
+        "frame:id_59": {
+          "visible": false
+        },
+        "frame:id_6": {
+          "visible": false
+        },
+        "frame:id_60": {
+          "visible": false
+        },
+        "frame:id_61": {
+          "visible": false
+        },
+        "frame:id_62": {
+          "visible": false
+        },
+        "frame:id_63": {
+          "visible": false
+        },
+        "frame:id_64": {
+          "visible": false
+        },
+        "frame:id_65": {
+          "visible": false
+        },
+        "frame:id_66": {
+          "visible": false
+        },
+        "frame:id_67": {
+          "visible": false
+        },
+        "frame:id_68": {
+          "visible": false
+        },
+        "frame:id_69": {
+          "visible": false
+        },
+        "frame:id_7": {
+          "visible": false
+        },
+        "frame:id_70": {
+          "visible": false
+        },
+        "frame:id_71": {
+          "visible": false
+        },
+        "frame:id_72": {
+          "visible": false
+        },
+        "frame:id_73": {
+          "visible": false
+        },
+        "frame:id_74": {
+          "visible": false
+        },
+        "frame:id_75": {
+          "visible": false
+        },
+        "frame:id_76": {
+          "visible": false
+        },
+        "frame:id_77": {
+          "visible": false
+        },
+        "frame:id_78": {
+          "visible": false
+        },
+        "frame:id_79": {
+          "visible": false
+        },
+        "frame:id_8": {
+          "visible": false
+        },
+        "frame:id_80": {
+          "visible": false
+        },
+        "frame:id_81": {
+          "visible": false
+        },
+        "frame:id_82": {
+          "visible": false
+        },
+        "frame:id_83": {
+          "visible": false
+        },
+        "frame:id_84": {
+          "visible": false
+        },
+        "frame:id_85": {
+          "visible": false
+        },
+        "frame:id_86": {
+          "visible": false
+        },
+        "frame:id_87": {
+          "visible": false
+        },
+        "frame:id_88": {
+          "visible": false
+        },
+        "frame:id_89": {
+          "visible": false
+        },
+        "frame:id_9": {
+          "visible": false
+        },
+        "frame:id_90": {
+          "visible": false
+        },
+        "frame:id_91": {
+          "visible": false
+        },
+        "frame:id_92": {
+          "visible": false
+        },
+        "frame:id_93": {
+          "visible": false
+        },
+        "frame:id_94": {
+          "visible": false
+        },
+        "frame:id_95": {
+          "visible": false
+        },
+        "frame:id_96": {
+          "visible": false
+        },
+        "frame:id_97": {
+          "visible": false
+        },
+        "frame:id_98": {
+          "visible": false
+        },
+        "frame:id_99": {
+          "visible": false
+        }
+      },
+      "topics": {
+        "1/ultrasound": {
+          "visible": false,
+          "colorField": "intensity",
+          "colorMode": "flat",
+          "colorMap": "turbo",
+          "pointSize": 3,
+          "flatColor": "#ed8080ff",
+          "decayTime": 0
+        },
+        "10/laser": {
+          "visible": false,
+          "colorField": "intensity",
+          "colorMode": "colormap",
+          "colorMap": "turbo"
+        },
+        "1/pose": {
+          "visible": true,
+          "axisScale": 0.2,
+          "type": "arrow",
+          "color": "#e34f4fff"
+        },
+        "1/laser": {
+          "visible": false,
+          "colorField": "intensity",
+          "colorMode": "flat",
+          "colorMap": "turbo",
+          "pointSize": 5,
+          "pointShape": "square",
+          "flatColor": "#ff0000ff",
+          "decayTime": 0
+        },
+        "40/pose": {
+          "visible": true,
+          "type": "arrow",
+          "color": "#4cf55fff"
+        },
+        "40/laser": {
+          "visible": false,
+          "colorField": "intensity",
+          "colorMode": "flat",
+          "colorMap": "turbo",
+          "pointShape": "square",
+          "pointSize": 5,
+          "decayTime": 0,
+          "flatColor": "#00ff48ff"
+        },
+        "40/ultrasound": {
+          "visible": false,
+          "colorField": "intensity",
+          "colorMode": "flat",
+          "colorMap": "turbo",
+          "flatColor": "#0dff00ff",
+          "pointSize": 3,
+          "decayTime": 0
+        },
+        "1/path": {
+          "visible": true,
+          "type": "line",
+          "gradient": [
+            "#ff6b6bff",
+            "#ff6b6b80"
+          ]
+        },
+        "40/path": {
+          "visible": true,
+          "type": "line",
+          "gradient": [
+            "#6bff86ff",
+            "#6dff6b80"
+          ]
+        },
+        "54/path": {
+          "visible": true,
+          "type": "line",
+          "gradient": [
+            "#6b6fffff",
+            "#6b7dff80"
+          ]
+        },
+        "54/pose": {
+          "visible": true,
+          "type": "arrow",
+          "color": "#728ff7ff"
+        }
+      },
+      "layers": {
+        "grid": {
+          "visible": true,
+          "frameLocked": true,
+          "label": "Grid",
+          "instanceId": "b0a2c578-3b51-441d-a640-c48d4e52558a",
+          "layerId": "foxglove.Grid",
+          "size": 10,
+          "divisions": 10,
+          "lineWidth": 1,
+          "color": "#248eff",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "publish": {
+        "type": "point",
+        "poseTopic": "/move_base_simple/goal",
+        "pointTopic": "/clicked_point",
+        "poseEstimateTopic": "/initialpose",
+        "poseEstimateXDeviation": 0.5,
+        "poseEstimateYDeviation": 0.5,
+        "poseEstimateThetaDeviation": 0.26179939
+      },
+      "imageMode": {},
+      "followTf": "odom",
+      "foxglovePanelTitle": ""
+    },
+    "3D!fmtvyu": {
+      "cameraState": {
+        "perspective": true,
+        "distance": 5.547791462431779,
+        "phi": 65.78685932878328,
+        "thetaOffset": 45.15863854523521,
+        "targetOffset": [
+          3.8100570194815764,
+          -0.020379583860766277,
+          9.753262980429828e-17
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "targetOrientation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "fovy": 45,
+        "near": 0.5,
+        "far": 5000
+      },
+      "followMode": "follow-pose",
+      "scene": {
+        "transforms": {
+          "lineWidth": 0.1,
+          "visible": false
+        },
+        "syncCamera": false
+      },
+      "transforms": {
+        "frame:odom": {
+          "visible": true
+        },
+        "frame:id_1": {
+          "visible": true
+        },
+        "frame:id_10": {
+          "visible": false
+        },
+        "frame:id_100": {
+          "visible": false
+        },
+        "frame:id_11": {
+          "visible": false
+        },
+        "frame:id_12": {
+          "visible": false
+        },
+        "frame:id_13": {
+          "visible": false
+        },
+        "frame:id_14": {
+          "visible": false
+        },
+        "frame:id_15": {
+          "visible": false
+        },
+        "frame:id_16": {
+          "visible": false
+        },
+        "frame:id_17": {
+          "visible": false
+        },
+        "frame:id_18": {
+          "visible": false
+        },
+        "frame:id_19": {
+          "visible": false
+        },
+        "frame:id_2": {
+          "visible": false
+        },
+        "frame:id_20": {
+          "visible": false
+        },
+        "frame:id_21": {
+          "visible": false
+        },
+        "frame:id_22": {
+          "visible": false
+        },
+        "frame:id_23": {
+          "visible": false
+        },
+        "frame:id_24": {
+          "visible": false
+        },
+        "frame:id_25": {
+          "visible": false
+        },
+        "frame:id_26": {
+          "visible": false
+        },
+        "frame:id_27": {
+          "visible": false
+        },
+        "frame:id_28": {
+          "visible": false
+        },
+        "frame:id_29": {
+          "visible": false
+        },
+        "frame:id_3": {
+          "visible": false
+        },
+        "frame:id_30": {
+          "visible": false
+        },
+        "frame:id_31": {
+          "visible": false
+        },
+        "frame:id_32": {
+          "visible": false
+        },
+        "frame:id_33": {
+          "visible": false
+        },
+        "frame:id_34": {
+          "visible": false
+        },
+        "frame:id_35": {
+          "visible": false
+        },
+        "frame:id_36": {
+          "visible": false
+        },
+        "frame:id_37": {
+          "visible": false
+        },
+        "frame:id_38": {
+          "visible": false
+        },
+        "frame:id_39": {
+          "visible": false
+        },
+        "frame:id_4": {
+          "visible": false
+        },
+        "frame:id_40": {
+          "visible": true
+        },
+        "frame:id_41": {
+          "visible": false
+        },
+        "frame:id_42": {
+          "visible": false
+        },
+        "frame:id_43": {
+          "visible": false
+        },
+        "frame:id_44": {
+          "visible": false
+        },
+        "frame:id_45": {
+          "visible": false
+        },
+        "frame:id_46": {
+          "visible": false
+        },
+        "frame:id_47": {
+          "visible": false
+        },
+        "frame:id_48": {
+          "visible": false
+        },
+        "frame:id_49": {
+          "visible": false
+        },
+        "frame:id_5": {
+          "visible": false
+        },
+        "frame:id_50": {
+          "visible": false
+        },
+        "frame:id_51": {
+          "visible": false
+        },
+        "frame:id_52": {
+          "visible": false
+        },
+        "frame:id_53": {
+          "visible": false
+        },
+        "frame:id_54": {
+          "visible": false
+        },
+        "frame:id_55": {
+          "visible": false
+        },
+        "frame:id_56": {
+          "visible": false
+        },
+        "frame:id_57": {
+          "visible": false
+        },
+        "frame:id_58": {
+          "visible": false
+        },
+        "frame:id_59": {
+          "visible": false
+        },
+        "frame:id_6": {
+          "visible": false
+        },
+        "frame:id_60": {
+          "visible": false
+        },
+        "frame:id_61": {
+          "visible": false
+        },
+        "frame:id_62": {
+          "visible": false
+        },
+        "frame:id_63": {
+          "visible": false
+        },
+        "frame:id_64": {
+          "visible": false
+        },
+        "frame:id_65": {
+          "visible": false
+        },
+        "frame:id_66": {
+          "visible": false
+        },
+        "frame:id_67": {
+          "visible": false
+        },
+        "frame:id_68": {
+          "visible": false
+        },
+        "frame:id_69": {
+          "visible": false
+        },
+        "frame:id_7": {
+          "visible": false
+        },
+        "frame:id_70": {
+          "visible": false
+        },
+        "frame:id_71": {
+          "visible": false
+        },
+        "frame:id_72": {
+          "visible": false
+        },
+        "frame:id_73": {
+          "visible": false
+        },
+        "frame:id_74": {
+          "visible": false
+        },
+        "frame:id_75": {
+          "visible": false
+        },
+        "frame:id_76": {
+          "visible": false
+        },
+        "frame:id_77": {
+          "visible": false
+        },
+        "frame:id_78": {
+          "visible": false
+        },
+        "frame:id_79": {
+          "visible": false
+        },
+        "frame:id_8": {
+          "visible": false
+        },
+        "frame:id_80": {
+          "visible": false
+        },
+        "frame:id_81": {
+          "visible": false
+        },
+        "frame:id_82": {
+          "visible": false
+        },
+        "frame:id_83": {
+          "visible": false
+        },
+        "frame:id_84": {
+          "visible": false
+        },
+        "frame:id_85": {
+          "visible": false
+        },
+        "frame:id_86": {
+          "visible": false
+        },
+        "frame:id_87": {
+          "visible": false
+        },
+        "frame:id_88": {
+          "visible": false
+        },
+        "frame:id_89": {
+          "visible": false
+        },
+        "frame:id_9": {
+          "visible": false
+        },
+        "frame:id_90": {
+          "visible": false
+        },
+        "frame:id_91": {
+          "visible": false
+        },
+        "frame:id_92": {
+          "visible": false
+        },
+        "frame:id_93": {
+          "visible": false
+        },
+        "frame:id_94": {
+          "visible": false
+        },
+        "frame:id_95": {
+          "visible": false
+        },
+        "frame:id_96": {
+          "visible": false
+        },
+        "frame:id_97": {
+          "visible": false
+        },
+        "frame:id_98": {
+          "visible": false
+        },
+        "frame:id_99": {
+          "visible": false
+        }
+      },
+      "topics": {
+        "1/ultrasound": {
+          "visible": false,
+          "colorField": "intensity",
+          "colorMode": "flat",
+          "colorMap": "turbo",
+          "pointSize": 3,
+          "flatColor": "#ed8080ff",
+          "decayTime": 0
+        },
+        "10/laser": {
+          "visible": false,
+          "colorField": "intensity",
+          "colorMode": "colormap",
+          "colorMap": "turbo"
+        },
+        "1/pose": {
+          "visible": false
+        },
+        "1/laser": {
+          "visible": false,
+          "colorField": "intensity",
+          "colorMode": "flat",
+          "colorMap": "turbo",
+          "pointSize": 5,
+          "pointShape": "square",
+          "flatColor": "#ff0000ff",
+          "decayTime": 0
+        },
+        "40/pose": {
+          "visible": false
+        },
+        "40/laser": {
+          "visible": false,
+          "colorField": "intensity",
+          "colorMode": "flat",
+          "colorMap": "turbo",
+          "pointShape": "square",
+          "pointSize": 5,
+          "decayTime": 0,
+          "flatColor": "#00ff48ff"
+        },
+        "40/ultrasound": {
+          "visible": false,
+          "colorField": "intensity",
+          "colorMode": "flat",
+          "colorMap": "turbo",
+          "flatColor": "#0dff00ff",
+          "pointSize": 3,
+          "decayTime": 0
+        },
+        "1/path": {
+          "visible": false,
+          "type": "line",
+          "gradient": [
+            "#ff6b6bff",
+            "#ff6b6b80"
+          ]
+        },
+        "40/path": {
+          "visible": false,
+          "type": "line",
+          "gradient": [
+            "#6bff86ff",
+            "#6dff6b80"
+          ]
+        },
+        "/scene": {
+          "visible": true,
+          "selectedIdVariable": "",
+          "computeVertexNormals": true,
+          "showOutlines": true
+        },
+        "10/ultrasound": {
+          "visible": false
+        },
+        "100/laser": {
+          "visible": false
+        },
+        "100/ultrasound": {
+          "visible": false
+        },
+        "11/laser": {
+          "visible": false
+        },
+        "11/ultrasound": {
+          "visible": false
+        },
+        "12/laser": {
+          "visible": false
+        },
+        "12/ultrasound": {
+          "visible": false
+        },
+        "13/laser": {
+          "visible": false
+        },
+        "13/ultrasound": {
+          "visible": false
+        },
+        "14/laser": {
+          "visible": false
+        },
+        "14/ultrasound": {
+          "visible": false
+        },
+        "15/laser": {
+          "visible": false
+        },
+        "15/ultrasound": {
+          "visible": false
+        },
+        "16/laser": {
+          "visible": false
+        },
+        "16/ultrasound": {
+          "visible": false
+        },
+        "17/laser": {
+          "visible": false
+        },
+        "17/ultrasound": {
+          "visible": false
+        },
+        "18/laser": {
+          "visible": false
+        },
+        "18/ultrasound": {
+          "visible": false
+        },
+        "19/laser": {
+          "visible": false
+        },
+        "19/ultrasound": {
+          "visible": false
+        },
+        "2/laser": {
+          "visible": false
+        },
+        "2/ultrasound": {
+          "visible": false
+        },
+        "20/laser": {
+          "visible": false
+        },
+        "20/ultrasound": {
+          "visible": false
+        },
+        "21/laser": {
+          "visible": false
+        },
+        "21/ultrasound": {
+          "visible": false
+        },
+        "22/laser": {
+          "visible": false
+        },
+        "22/ultrasound": {
+          "visible": false
+        },
+        "23/laser": {
+          "visible": false
+        },
+        "23/ultrasound": {
+          "visible": false
+        },
+        "24/laser": {
+          "visible": false
+        },
+        "24/ultrasound": {
+          "visible": false
+        },
+        "25/laser": {
+          "visible": false
+        },
+        "25/ultrasound": {
+          "visible": false
+        },
+        "26/laser": {
+          "visible": false
+        },
+        "26/ultrasound": {
+          "visible": false
+        },
+        "27/laser": {
+          "visible": false
+        },
+        "27/ultrasound": {
+          "visible": false
+        },
+        "28/laser": {
+          "visible": false
+        },
+        "28/ultrasound": {
+          "visible": false
+        },
+        "29/laser": {
+          "visible": false
+        },
+        "29/ultrasound": {
+          "visible": false
+        },
+        "3/laser": {
+          "visible": false
+        },
+        "3/ultrasound": {
+          "visible": false
+        },
+        "30/laser": {
+          "visible": false
+        },
+        "30/ultrasound": {
+          "visible": false
+        },
+        "31/laser": {
+          "visible": false
+        },
+        "31/ultrasound": {
+          "visible": false
+        },
+        "32/laser": {
+          "visible": false
+        },
+        "32/ultrasound": {
+          "visible": false
+        },
+        "33/laser": {
+          "visible": false
+        },
+        "33/ultrasound": {
+          "visible": false
+        },
+        "34/laser": {
+          "visible": false
+        },
+        "34/ultrasound": {
+          "visible": false
+        },
+        "35/laser": {
+          "visible": false
+        },
+        "35/ultrasound": {
+          "visible": false
+        },
+        "36/laser": {
+          "visible": false
+        },
+        "36/ultrasound": {
+          "visible": false
+        },
+        "37/laser": {
+          "visible": false
+        },
+        "37/ultrasound": {
+          "visible": false
+        },
+        "38/laser": {
+          "visible": false
+        },
+        "38/ultrasound": {
+          "visible": false
+        },
+        "39/laser": {
+          "visible": false
+        },
+        "39/ultrasound": {
+          "visible": false
+        },
+        "4/laser": {
+          "visible": false
+        },
+        "4/ultrasound": {
+          "visible": false
+        },
+        "41/laser": {
+          "visible": false
+        },
+        "41/ultrasound": {
+          "visible": false
+        },
+        "42/laser": {
+          "visible": false
+        },
+        "42/ultrasound": {
+          "visible": false
+        },
+        "43/laser": {
+          "visible": false
+        },
+        "43/ultrasound": {
+          "visible": false
+        },
+        "44/laser": {
+          "visible": false
+        },
+        "44/ultrasound": {
+          "visible": false
+        },
+        "45/laser": {
+          "visible": false
+        },
+        "45/ultrasound": {
+          "visible": false
+        },
+        "46/laser": {
+          "visible": false
+        },
+        "46/ultrasound": {
+          "visible": false
+        },
+        "47/laser": {
+          "visible": false
+        },
+        "47/ultrasound": {
+          "visible": false
+        },
+        "48/laser": {
+          "visible": false
+        },
+        "48/ultrasound": {
+          "visible": false
+        },
+        "49/laser": {
+          "visible": false
+        },
+        "49/ultrasound": {
+          "visible": false
+        },
+        "5/laser": {
+          "visible": false
+        },
+        "5/ultrasound": {
+          "visible": false
+        },
+        "50/laser": {
+          "visible": false
+        },
+        "50/ultrasound": {
+          "visible": false
+        },
+        "51/laser": {
+          "visible": false
+        },
+        "51/ultrasound": {
+          "visible": false
+        },
+        "52/laser": {
+          "visible": false
+        },
+        "52/ultrasound": {
+          "visible": false
+        },
+        "53/laser": {
+          "visible": false
+        },
+        "53/ultrasound": {
+          "visible": false
+        },
+        "54/laser": {
+          "visible": false
+        },
+        "54/ultrasound": {
+          "visible": false
+        },
+        "55/laser": {
+          "visible": false
+        },
+        "55/ultrasound": {
+          "visible": false
+        },
+        "56/laser": {
+          "visible": false
+        },
+        "56/ultrasound": {
+          "visible": false
+        },
+        "57/laser": {
+          "visible": false
+        },
+        "57/ultrasound": {
+          "visible": false
+        },
+        "58/laser": {
+          "visible": false
+        },
+        "58/ultrasound": {
+          "visible": false
+        },
+        "59/laser": {
+          "visible": false
+        },
+        "59/ultrasound": {
+          "visible": false
+        },
+        "6/laser": {
+          "visible": false
+        },
+        "6/ultrasound": {
+          "visible": false
+        },
+        "60/laser": {
+          "visible": false
+        },
+        "60/ultrasound": {
+          "visible": false
+        },
+        "61/laser": {
+          "visible": false
+        },
+        "61/ultrasound": {
+          "visible": false
+        },
+        "62/laser": {
+          "visible": false
+        },
+        "62/ultrasound": {
+          "visible": false
+        },
+        "63/laser": {
+          "visible": false
+        },
+        "63/ultrasound": {
+          "visible": false
+        },
+        "64/laser": {
+          "visible": false
+        },
+        "64/ultrasound": {
+          "visible": false
+        },
+        "65/laser": {
+          "visible": false
+        },
+        "65/ultrasound": {
+          "visible": false
+        },
+        "66/laser": {
+          "visible": false
+        },
+        "66/ultrasound": {
+          "visible": false
+        },
+        "67/laser": {
+          "visible": false
+        },
+        "67/ultrasound": {
+          "visible": false
+        },
+        "68/laser": {
+          "visible": false
+        },
+        "68/ultrasound": {
+          "visible": false
+        },
+        "69/laser": {
+          "visible": false
+        },
+        "69/ultrasound": {
+          "visible": false
+        },
+        "7/laser": {
+          "visible": false
+        },
+        "7/ultrasound": {
+          "visible": false
+        },
+        "70/laser": {
+          "visible": false
+        },
+        "70/ultrasound": {
+          "visible": false
+        },
+        "71/laser": {
+          "visible": false
+        },
+        "71/ultrasound": {
+          "visible": false
+        },
+        "72/laser": {
+          "visible": false
+        },
+        "72/ultrasound": {
+          "visible": false
+        },
+        "73/laser": {
+          "visible": false
+        },
+        "73/ultrasound": {
+          "visible": false
+        },
+        "74/laser": {
+          "visible": false
+        },
+        "74/ultrasound": {
+          "visible": false
+        },
+        "75/laser": {
+          "visible": false
+        },
+        "75/ultrasound": {
+          "visible": false
+        },
+        "76/laser": {
+          "visible": false
+        },
+        "76/ultrasound": {
+          "visible": false
+        },
+        "77/laser": {
+          "visible": false
+        },
+        "77/ultrasound": {
+          "visible": false
+        },
+        "78/laser": {
+          "visible": false
+        },
+        "78/ultrasound": {
+          "visible": false
+        },
+        "79/laser": {
+          "visible": false
+        },
+        "79/ultrasound": {
+          "visible": false
+        },
+        "8/laser": {
+          "visible": false
+        },
+        "8/ultrasound": {
+          "visible": false
+        },
+        "80/laser": {
+          "visible": false
+        },
+        "80/ultrasound": {
+          "visible": false
+        },
+        "81/laser": {
+          "visible": false
+        },
+        "81/ultrasound": {
+          "visible": false
+        },
+        "82/laser": {
+          "visible": false
+        },
+        "82/ultrasound": {
+          "visible": false
+        },
+        "83/laser": {
+          "visible": false
+        },
+        "83/ultrasound": {
+          "visible": false
+        },
+        "84/laser": {
+          "visible": false
+        },
+        "84/ultrasound": {
+          "visible": false
+        },
+        "85/laser": {
+          "visible": false
+        },
+        "85/ultrasound": {
+          "visible": false
+        },
+        "86/laser": {
+          "visible": false
+        },
+        "86/ultrasound": {
+          "visible": false
+        },
+        "87/laser": {
+          "visible": false
+        },
+        "87/ultrasound": {
+          "visible": false
+        },
+        "88/laser": {
+          "visible": false
+        },
+        "88/ultrasound": {
+          "visible": false
+        },
+        "89/laser": {
+          "visible": false
+        },
+        "89/ultrasound": {
+          "visible": false
+        },
+        "9/laser": {
+          "visible": false
+        },
+        "9/ultrasound": {
+          "visible": false
+        },
+        "90/laser": {
+          "visible": false
+        },
+        "90/ultrasound": {
+          "visible": false
+        },
+        "91/laser": {
+          "visible": false
+        },
+        "91/ultrasound": {
+          "visible": false
+        },
+        "92/laser": {
+          "visible": false
+        },
+        "92/ultrasound": {
+          "visible": false
+        },
+        "93/laser": {
+          "visible": false
+        },
+        "93/ultrasound": {
+          "visible": false
+        },
+        "94/laser": {
+          "visible": false
+        },
+        "94/ultrasound": {
+          "visible": false
+        },
+        "95/laser": {
+          "visible": false
+        },
+        "95/ultrasound": {
+          "visible": false
+        },
+        "96/laser": {
+          "visible": false
+        },
+        "96/ultrasound": {
+          "visible": false
+        },
+        "97/laser": {
+          "visible": false
+        },
+        "97/ultrasound": {
+          "visible": false
+        },
+        "98/laser": {
+          "visible": false
+        },
+        "98/ultrasound": {
+          "visible": false
+        },
+        "99/laser": {
+          "visible": false
+        },
+        "99/ultrasound": {
+          "visible": false
+        },
+        "10/pose": {
+          "visible": false
+        },
+        "100/pose": {
+          "visible": false
+        },
+        "11/pose": {
+          "visible": false
+        },
+        "12/pose": {
+          "visible": false
+        },
+        "13/pose": {
+          "visible": false
+        },
+        "14/pose": {
+          "visible": false
+        },
+        "15/pose": {
+          "visible": false
+        },
+        "16/pose": {
+          "visible": false
+        },
+        "17/pose": {
+          "visible": false
+        },
+        "18/pose": {
+          "visible": false
+        },
+        "19/pose": {
+          "visible": false
+        },
+        "2/pose": {
+          "visible": false
+        },
+        "20/pose": {
+          "visible": false
+        },
+        "21/pose": {
+          "visible": false
+        },
+        "22/pose": {
+          "visible": false
+        },
+        "23/pose": {
+          "visible": false
+        },
+        "24/pose": {
+          "visible": false
+        },
+        "25/pose": {
+          "visible": false
+        },
+        "26/pose": {
+          "visible": false
+        },
+        "27/pose": {
+          "visible": false
+        },
+        "28/pose": {
+          "visible": false
+        },
+        "29/pose": {
+          "visible": false
+        },
+        "3/pose": {
+          "visible": false
+        },
+        "30/pose": {
+          "visible": false
+        },
+        "31/pose": {
+          "visible": false
+        },
+        "32/pose": {
+          "visible": false
+        },
+        "33/pose": {
+          "visible": false
+        },
+        "34/pose": {
+          "visible": false
+        },
+        "35/pose": {
+          "visible": false
+        },
+        "36/pose": {
+          "visible": false
+        },
+        "37/pose": {
+          "visible": false
+        },
+        "38/pose": {
+          "visible": false
+        },
+        "39/pose": {
+          "visible": false
+        },
+        "4/pose": {
+          "visible": false
+        },
+        "41/pose": {
+          "visible": false
+        },
+        "42/pose": {
+          "visible": false
+        },
+        "43/pose": {
+          "visible": false
+        },
+        "44/pose": {
+          "visible": false
+        },
+        "45/pose": {
+          "visible": false
+        },
+        "46/pose": {
+          "visible": false
+        },
+        "47/pose": {
+          "visible": false
+        },
+        "48/pose": {
+          "visible": false
+        },
+        "49/pose": {
+          "visible": false
+        },
+        "5/pose": {
+          "visible": false
+        },
+        "50/pose": {
+          "visible": false
+        },
+        "51/pose": {
+          "visible": false
+        },
+        "52/pose": {
+          "visible": false
+        },
+        "53/pose": {
+          "visible": false
+        },
+        "54/pose": {
+          "visible": false
+        },
+        "55/pose": {
+          "visible": false
+        },
+        "56/pose": {
+          "visible": false
+        },
+        "57/pose": {
+          "visible": false
+        },
+        "58/pose": {
+          "visible": false
+        },
+        "59/pose": {
+          "visible": false
+        },
+        "6/pose": {
+          "visible": false
+        },
+        "60/pose": {
+          "visible": false
+        },
+        "61/pose": {
+          "visible": false
+        },
+        "62/pose": {
+          "visible": false
+        },
+        "63/pose": {
+          "visible": false
+        },
+        "64/pose": {
+          "visible": false
+        },
+        "65/pose": {
+          "visible": false
+        },
+        "66/pose": {
+          "visible": false
+        },
+        "67/pose": {
+          "visible": false
+        },
+        "68/pose": {
+          "visible": false
+        },
+        "69/pose": {
+          "visible": false
+        },
+        "7/pose": {
+          "visible": false
+        },
+        "70/pose": {
+          "visible": false
+        },
+        "71/pose": {
+          "visible": false
+        },
+        "72/pose": {
+          "visible": false
+        },
+        "73/pose": {
+          "visible": false
+        },
+        "74/pose": {
+          "visible": false
+        },
+        "75/pose": {
+          "visible": false
+        },
+        "76/pose": {
+          "visible": false
+        },
+        "77/pose": {
+          "visible": false
+        },
+        "78/pose": {
+          "visible": false
+        },
+        "79/pose": {
+          "visible": false
+        },
+        "8/pose": {
+          "visible": false
+        },
+        "80/pose": {
+          "visible": false
+        },
+        "81/pose": {
+          "visible": false
+        },
+        "82/pose": {
+          "visible": false
+        },
+        "83/pose": {
+          "visible": false
+        },
+        "84/pose": {
+          "visible": false
+        },
+        "85/pose": {
+          "visible": false
+        },
+        "86/pose": {
+          "visible": false
+        },
+        "87/pose": {
+          "visible": false
+        },
+        "88/pose": {
+          "visible": false
+        },
+        "89/pose": {
+          "visible": false
+        },
+        "9/pose": {
+          "visible": false
+        },
+        "90/pose": {
+          "visible": false
+        },
+        "91/pose": {
+          "visible": false
+        },
+        "92/pose": {
+          "visible": false
+        },
+        "93/pose": {
+          "visible": false
+        },
+        "94/pose": {
+          "visible": false
+        },
+        "95/pose": {
+          "visible": false
+        },
+        "96/pose": {
+          "visible": false
+        },
+        "97/pose": {
+          "visible": false
+        },
+        "98/pose": {
+          "visible": false
+        },
+        "99/pose": {
+          "visible": false
+        },
+        "10/path": {
+          "visible": false
+        },
+        "100/path": {
+          "visible": false
+        },
+        "11/path": {
+          "visible": false
+        },
+        "12/path": {
+          "visible": false
+        },
+        "13/path": {
+          "visible": false
+        },
+        "14/path": {
+          "visible": false
+        },
+        "15/path": {
+          "visible": false
+        },
+        "16/path": {
+          "visible": false
+        },
+        "17/path": {
+          "visible": false
+        },
+        "18/path": {
+          "visible": false
+        },
+        "19/path": {
+          "visible": false
+        },
+        "2/path": {
+          "visible": false
+        },
+        "20/path": {
+          "visible": false
+        },
+        "21/path": {
+          "visible": false
+        },
+        "22/path": {
+          "visible": false
+        },
+        "23/path": {
+          "visible": false
+        },
+        "24/path": {
+          "visible": false
+        },
+        "25/path": {
+          "visible": false
+        },
+        "26/path": {
+          "visible": false
+        },
+        "27/path": {
+          "visible": false
+        },
+        "28/path": {
+          "visible": false
+        },
+        "29/path": {
+          "visible": false
+        },
+        "3/path": {
+          "visible": false
+        },
+        "30/path": {
+          "visible": false
+        },
+        "31/path": {
+          "visible": false
+        },
+        "32/path": {
+          "visible": false
+        },
+        "33/path": {
+          "visible": false
+        },
+        "34/path": {
+          "visible": false
+        },
+        "35/path": {
+          "visible": false
+        },
+        "36/path": {
+          "visible": false
+        },
+        "37/path": {
+          "visible": false
+        },
+        "38/path": {
+          "visible": false
+        },
+        "39/path": {
+          "visible": false
+        },
+        "4/path": {
+          "visible": false
+        },
+        "41/path": {
+          "visible": false
+        },
+        "42/path": {
+          "visible": false
+        },
+        "43/path": {
+          "visible": false
+        },
+        "44/path": {
+          "visible": false
+        },
+        "45/path": {
+          "visible": false
+        },
+        "46/path": {
+          "visible": false
+        },
+        "47/path": {
+          "visible": false
+        },
+        "48/path": {
+          "visible": false
+        },
+        "49/path": {
+          "visible": false
+        },
+        "5/path": {
+          "visible": false
+        },
+        "50/path": {
+          "visible": false
+        },
+        "51/path": {
+          "visible": false
+        },
+        "52/path": {
+          "visible": false
+        },
+        "53/path": {
+          "visible": false
+        },
+        "54/path": {
+          "visible": false
+        },
+        "55/path": {
+          "visible": false
+        },
+        "56/path": {
+          "visible": false
+        },
+        "57/path": {
+          "visible": false
+        },
+        "58/path": {
+          "visible": false
+        },
+        "59/path": {
+          "visible": false
+        },
+        "6/path": {
+          "visible": false
+        },
+        "60/path": {
+          "visible": false
+        },
+        "61/path": {
+          "visible": false
+        },
+        "62/path": {
+          "visible": false
+        },
+        "63/path": {
+          "visible": false
+        },
+        "64/path": {
+          "visible": false
+        },
+        "65/path": {
+          "visible": false
+        },
+        "66/path": {
+          "visible": false
+        },
+        "67/path": {
+          "visible": false
+        },
+        "68/path": {
+          "visible": false
+        },
+        "69/path": {
+          "visible": false
+        },
+        "7/path": {
+          "visible": false
+        },
+        "70/path": {
+          "visible": false
+        },
+        "71/path": {
+          "visible": false
+        },
+        "72/path": {
+          "visible": false
+        },
+        "73/path": {
+          "visible": false
+        },
+        "74/path": {
+          "visible": false
+        },
+        "75/path": {
+          "visible": false
+        },
+        "76/path": {
+          "visible": false
+        },
+        "77/path": {
+          "visible": false
+        },
+        "78/path": {
+          "visible": false
+        },
+        "79/path": {
+          "visible": false
+        },
+        "8/path": {
+          "visible": false
+        },
+        "80/path": {
+          "visible": false
+        },
+        "81/path": {
+          "visible": false
+        },
+        "82/path": {
+          "visible": false
+        },
+        "83/path": {
+          "visible": false
+        },
+        "84/path": {
+          "visible": false
+        },
+        "85/path": {
+          "visible": false
+        },
+        "86/path": {
+          "visible": false
+        },
+        "87/path": {
+          "visible": false
+        },
+        "88/path": {
+          "visible": false
+        },
+        "89/path": {
+          "visible": false
+        },
+        "9/path": {
+          "visible": false
+        },
+        "90/path": {
+          "visible": false
+        },
+        "91/path": {
+          "visible": false
+        },
+        "92/path": {
+          "visible": false
+        },
+        "93/path": {
+          "visible": false
+        },
+        "94/path": {
+          "visible": false
+        },
+        "95/path": {
+          "visible": false
+        },
+        "96/path": {
+          "visible": false
+        },
+        "97/path": {
+          "visible": false
+        },
+        "98/path": {
+          "visible": false
+        },
+        "99/path": {
+          "visible": false
+        },
+        "success/scene": {
+          "visible": false
+        },
+        "partial/scene": {
+          "visible": false
+        },
+        "collision/scene": {
+          "visible": true,
+          "showOutlines": false
+        },
+        "timeout/scene": {
+          "visible": false
+        }
+      },
+      "layers": {
+        "grid": {
+          "visible": true,
+          "frameLocked": true,
+          "label": "Grid",
+          "instanceId": "b0a2c578-3b51-441d-a640-c48d4e52558a",
+          "layerId": "foxglove.Grid",
+          "size": 10,
+          "divisions": 10,
+          "lineWidth": 1,
+          "color": "#248eff",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "publish": {
+        "type": "point",
+        "poseTopic": "/move_base_simple/goal",
+        "pointTopic": "/clicked_point",
+        "poseEstimateTopic": "/initialpose",
+        "poseEstimateXDeviation": 0.5,
+        "poseEstimateYDeviation": 0.5,
+        "poseEstimateThetaDeviation": 0.26179939
+      },
+      "imageMode": {},
+      "followTf": "odom",
+      "foxglovePanelTitle": "Collision Runs"
+    },
+    "3D!2ua0h9b": {
+      "cameraState": {
+        "perspective": true,
+        "distance": 7.547072050698601,
+        "phi": 54.82239232370828,
+        "thetaOffset": 49.97085349878866,
+        "targetOffset": [
+          5.444367517749027,
+          -0.6503080838134685,
+          8.756964665737294e-17
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "targetOrientation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "fovy": 45,
+        "near": 0.5,
+        "far": 5000
+      },
+      "followMode": "follow-pose",
+      "scene": {
+        "transforms": {
+          "lineWidth": 0.1,
+          "visible": false
+        },
+        "syncCamera": false
+      },
+      "transforms": {
+        "frame:odom": {
+          "visible": true
+        },
+        "frame:id_1": {
+          "visible": true
+        },
+        "frame:id_10": {
+          "visible": false
+        },
+        "frame:id_100": {
+          "visible": false
+        },
+        "frame:id_11": {
+          "visible": false
+        },
+        "frame:id_12": {
+          "visible": false
+        },
+        "frame:id_13": {
+          "visible": false
+        },
+        "frame:id_14": {
+          "visible": false
+        },
+        "frame:id_15": {
+          "visible": false
+        },
+        "frame:id_16": {
+          "visible": false
+        },
+        "frame:id_17": {
+          "visible": false
+        },
+        "frame:id_18": {
+          "visible": false
+        },
+        "frame:id_19": {
+          "visible": false
+        },
+        "frame:id_2": {
+          "visible": false
+        },
+        "frame:id_20": {
+          "visible": false
+        },
+        "frame:id_21": {
+          "visible": false
+        },
+        "frame:id_22": {
+          "visible": false
+        },
+        "frame:id_23": {
+          "visible": false
+        },
+        "frame:id_24": {
+          "visible": false
+        },
+        "frame:id_25": {
+          "visible": false
+        },
+        "frame:id_26": {
+          "visible": false
+        },
+        "frame:id_27": {
+          "visible": false
+        },
+        "frame:id_28": {
+          "visible": false
+        },
+        "frame:id_29": {
+          "visible": false
+        },
+        "frame:id_3": {
+          "visible": false
+        },
+        "frame:id_30": {
+          "visible": false
+        },
+        "frame:id_31": {
+          "visible": false
+        },
+        "frame:id_32": {
+          "visible": false
+        },
+        "frame:id_33": {
+          "visible": false
+        },
+        "frame:id_34": {
+          "visible": false
+        },
+        "frame:id_35": {
+          "visible": false
+        },
+        "frame:id_36": {
+          "visible": false
+        },
+        "frame:id_37": {
+          "visible": false
+        },
+        "frame:id_38": {
+          "visible": false
+        },
+        "frame:id_39": {
+          "visible": false
+        },
+        "frame:id_4": {
+          "visible": false
+        },
+        "frame:id_40": {
+          "visible": true
+        },
+        "frame:id_41": {
+          "visible": false
+        },
+        "frame:id_42": {
+          "visible": false
+        },
+        "frame:id_43": {
+          "visible": false
+        },
+        "frame:id_44": {
+          "visible": false
+        },
+        "frame:id_45": {
+          "visible": false
+        },
+        "frame:id_46": {
+          "visible": false
+        },
+        "frame:id_47": {
+          "visible": false
+        },
+        "frame:id_48": {
+          "visible": false
+        },
+        "frame:id_49": {
+          "visible": false
+        },
+        "frame:id_5": {
+          "visible": false
+        },
+        "frame:id_50": {
+          "visible": false
+        },
+        "frame:id_51": {
+          "visible": false
+        },
+        "frame:id_52": {
+          "visible": false
+        },
+        "frame:id_53": {
+          "visible": false
+        },
+        "frame:id_54": {
+          "visible": false
+        },
+        "frame:id_55": {
+          "visible": false
+        },
+        "frame:id_56": {
+          "visible": false
+        },
+        "frame:id_57": {
+          "visible": false
+        },
+        "frame:id_58": {
+          "visible": false
+        },
+        "frame:id_59": {
+          "visible": false
+        },
+        "frame:id_6": {
+          "visible": false
+        },
+        "frame:id_60": {
+          "visible": false
+        },
+        "frame:id_61": {
+          "visible": false
+        },
+        "frame:id_62": {
+          "visible": false
+        },
+        "frame:id_63": {
+          "visible": false
+        },
+        "frame:id_64": {
+          "visible": false
+        },
+        "frame:id_65": {
+          "visible": false
+        },
+        "frame:id_66": {
+          "visible": false
+        },
+        "frame:id_67": {
+          "visible": false
+        },
+        "frame:id_68": {
+          "visible": false
+        },
+        "frame:id_69": {
+          "visible": false
+        },
+        "frame:id_7": {
+          "visible": false
+        },
+        "frame:id_70": {
+          "visible": false
+        },
+        "frame:id_71": {
+          "visible": false
+        },
+        "frame:id_72": {
+          "visible": false
+        },
+        "frame:id_73": {
+          "visible": false
+        },
+        "frame:id_74": {
+          "visible": false
+        },
+        "frame:id_75": {
+          "visible": false
+        },
+        "frame:id_76": {
+          "visible": false
+        },
+        "frame:id_77": {
+          "visible": false
+        },
+        "frame:id_78": {
+          "visible": false
+        },
+        "frame:id_79": {
+          "visible": false
+        },
+        "frame:id_8": {
+          "visible": false
+        },
+        "frame:id_80": {
+          "visible": false
+        },
+        "frame:id_81": {
+          "visible": false
+        },
+        "frame:id_82": {
+          "visible": false
+        },
+        "frame:id_83": {
+          "visible": false
+        },
+        "frame:id_84": {
+          "visible": false
+        },
+        "frame:id_85": {
+          "visible": false
+        },
+        "frame:id_86": {
+          "visible": false
+        },
+        "frame:id_87": {
+          "visible": false
+        },
+        "frame:id_88": {
+          "visible": false
+        },
+        "frame:id_89": {
+          "visible": false
+        },
+        "frame:id_9": {
+          "visible": false
+        },
+        "frame:id_90": {
+          "visible": false
+        },
+        "frame:id_91": {
+          "visible": false
+        },
+        "frame:id_92": {
+          "visible": false
+        },
+        "frame:id_93": {
+          "visible": false
+        },
+        "frame:id_94": {
+          "visible": false
+        },
+        "frame:id_95": {
+          "visible": false
+        },
+        "frame:id_96": {
+          "visible": false
+        },
+        "frame:id_97": {
+          "visible": false
+        },
+        "frame:id_98": {
+          "visible": false
+        },
+        "frame:id_99": {
+          "visible": false
+        }
+      },
+      "topics": {
+        "1/ultrasound": {
+          "visible": false,
+          "colorField": "intensity",
+          "colorMode": "flat",
+          "colorMap": "turbo",
+          "pointSize": 3,
+          "flatColor": "#ed8080ff",
+          "decayTime": 0
+        },
+        "10/laser": {
+          "visible": false,
+          "colorField": "intensity",
+          "colorMode": "colormap",
+          "colorMap": "turbo"
+        },
+        "1/pose": {
+          "visible": false
+        },
+        "1/laser": {
+          "visible": false,
+          "colorField": "intensity",
+          "colorMode": "flat",
+          "colorMap": "turbo",
+          "pointSize": 5,
+          "pointShape": "square",
+          "flatColor": "#ff0000ff",
+          "decayTime": 0
+        },
+        "40/pose": {
+          "visible": false
+        },
+        "40/laser": {
+          "visible": false,
+          "colorField": "intensity",
+          "colorMode": "flat",
+          "colorMap": "turbo",
+          "pointShape": "square",
+          "pointSize": 5,
+          "decayTime": 0,
+          "flatColor": "#00ff48ff"
+        },
+        "40/ultrasound": {
+          "visible": false,
+          "colorField": "intensity",
+          "colorMode": "flat",
+          "colorMap": "turbo",
+          "flatColor": "#0dff00ff",
+          "pointSize": 3,
+          "decayTime": 0
+        },
+        "1/path": {
+          "visible": false,
+          "type": "line",
+          "gradient": [
+            "#ff6b6bff",
+            "#ff6b6b80"
+          ]
+        },
+        "40/path": {
+          "visible": false,
+          "type": "line",
+          "gradient": [
+            "#6bff86ff",
+            "#6dff6b80"
+          ]
+        },
+        "/scene": {
+          "visible": true,
+          "selectedIdVariable": "",
+          "computeVertexNormals": true,
+          "showOutlines": true
+        },
+        "10/ultrasound": {
+          "visible": false
+        },
+        "100/laser": {
+          "visible": false
+        },
+        "100/ultrasound": {
+          "visible": false
+        },
+        "11/laser": {
+          "visible": false
+        },
+        "11/ultrasound": {
+          "visible": false
+        },
+        "12/laser": {
+          "visible": false
+        },
+        "12/ultrasound": {
+          "visible": false
+        },
+        "13/laser": {
+          "visible": false
+        },
+        "13/ultrasound": {
+          "visible": false
+        },
+        "14/laser": {
+          "visible": false
+        },
+        "14/ultrasound": {
+          "visible": false
+        },
+        "15/laser": {
+          "visible": false
+        },
+        "15/ultrasound": {
+          "visible": false
+        },
+        "16/laser": {
+          "visible": false
+        },
+        "16/ultrasound": {
+          "visible": false
+        },
+        "17/laser": {
+          "visible": false
+        },
+        "17/ultrasound": {
+          "visible": false
+        },
+        "18/laser": {
+          "visible": false
+        },
+        "18/ultrasound": {
+          "visible": false
+        },
+        "19/laser": {
+          "visible": false
+        },
+        "19/ultrasound": {
+          "visible": false
+        },
+        "2/laser": {
+          "visible": false
+        },
+        "2/ultrasound": {
+          "visible": false
+        },
+        "20/laser": {
+          "visible": false
+        },
+        "20/ultrasound": {
+          "visible": false
+        },
+        "21/laser": {
+          "visible": false
+        },
+        "21/ultrasound": {
+          "visible": false
+        },
+        "22/laser": {
+          "visible": false
+        },
+        "22/ultrasound": {
+          "visible": false
+        },
+        "23/laser": {
+          "visible": false
+        },
+        "23/ultrasound": {
+          "visible": false
+        },
+        "24/laser": {
+          "visible": false
+        },
+        "24/ultrasound": {
+          "visible": false
+        },
+        "25/laser": {
+          "visible": false
+        },
+        "25/ultrasound": {
+          "visible": false
+        },
+        "26/laser": {
+          "visible": false
+        },
+        "26/ultrasound": {
+          "visible": false
+        },
+        "27/laser": {
+          "visible": false
+        },
+        "27/ultrasound": {
+          "visible": false
+        },
+        "28/laser": {
+          "visible": false
+        },
+        "28/ultrasound": {
+          "visible": false
+        },
+        "29/laser": {
+          "visible": false
+        },
+        "29/ultrasound": {
+          "visible": false
+        },
+        "3/laser": {
+          "visible": false
+        },
+        "3/ultrasound": {
+          "visible": false
+        },
+        "30/laser": {
+          "visible": false
+        },
+        "30/ultrasound": {
+          "visible": false
+        },
+        "31/laser": {
+          "visible": false
+        },
+        "31/ultrasound": {
+          "visible": false
+        },
+        "32/laser": {
+          "visible": false
+        },
+        "32/ultrasound": {
+          "visible": false
+        },
+        "33/laser": {
+          "visible": false
+        },
+        "33/ultrasound": {
+          "visible": false
+        },
+        "34/laser": {
+          "visible": false
+        },
+        "34/ultrasound": {
+          "visible": false
+        },
+        "35/laser": {
+          "visible": false
+        },
+        "35/ultrasound": {
+          "visible": false
+        },
+        "36/laser": {
+          "visible": false
+        },
+        "36/ultrasound": {
+          "visible": false
+        },
+        "37/laser": {
+          "visible": false
+        },
+        "37/ultrasound": {
+          "visible": false
+        },
+        "38/laser": {
+          "visible": false
+        },
+        "38/ultrasound": {
+          "visible": false
+        },
+        "39/laser": {
+          "visible": false
+        },
+        "39/ultrasound": {
+          "visible": false
+        },
+        "4/laser": {
+          "visible": false
+        },
+        "4/ultrasound": {
+          "visible": false
+        },
+        "41/laser": {
+          "visible": false
+        },
+        "41/ultrasound": {
+          "visible": false
+        },
+        "42/laser": {
+          "visible": false
+        },
+        "42/ultrasound": {
+          "visible": false
+        },
+        "43/laser": {
+          "visible": false
+        },
+        "43/ultrasound": {
+          "visible": false
+        },
+        "44/laser": {
+          "visible": false
+        },
+        "44/ultrasound": {
+          "visible": false
+        },
+        "45/laser": {
+          "visible": false
+        },
+        "45/ultrasound": {
+          "visible": false
+        },
+        "46/laser": {
+          "visible": false
+        },
+        "46/ultrasound": {
+          "visible": false
+        },
+        "47/laser": {
+          "visible": false
+        },
+        "47/ultrasound": {
+          "visible": false
+        },
+        "48/laser": {
+          "visible": false
+        },
+        "48/ultrasound": {
+          "visible": false
+        },
+        "49/laser": {
+          "visible": false
+        },
+        "49/ultrasound": {
+          "visible": false
+        },
+        "5/laser": {
+          "visible": false
+        },
+        "5/ultrasound": {
+          "visible": false
+        },
+        "50/laser": {
+          "visible": false
+        },
+        "50/ultrasound": {
+          "visible": false
+        },
+        "51/laser": {
+          "visible": false
+        },
+        "51/ultrasound": {
+          "visible": false
+        },
+        "52/laser": {
+          "visible": false
+        },
+        "52/ultrasound": {
+          "visible": false
+        },
+        "53/laser": {
+          "visible": false
+        },
+        "53/ultrasound": {
+          "visible": false
+        },
+        "54/laser": {
+          "visible": false
+        },
+        "54/ultrasound": {
+          "visible": false
+        },
+        "55/laser": {
+          "visible": false
+        },
+        "55/ultrasound": {
+          "visible": false
+        },
+        "56/laser": {
+          "visible": false
+        },
+        "56/ultrasound": {
+          "visible": false
+        },
+        "57/laser": {
+          "visible": false
+        },
+        "57/ultrasound": {
+          "visible": false
+        },
+        "58/laser": {
+          "visible": false
+        },
+        "58/ultrasound": {
+          "visible": false
+        },
+        "59/laser": {
+          "visible": false
+        },
+        "59/ultrasound": {
+          "visible": false
+        },
+        "6/laser": {
+          "visible": false
+        },
+        "6/ultrasound": {
+          "visible": false
+        },
+        "60/laser": {
+          "visible": false
+        },
+        "60/ultrasound": {
+          "visible": false
+        },
+        "61/laser": {
+          "visible": false
+        },
+        "61/ultrasound": {
+          "visible": false
+        },
+        "62/laser": {
+          "visible": false
+        },
+        "62/ultrasound": {
+          "visible": false
+        },
+        "63/laser": {
+          "visible": false
+        },
+        "63/ultrasound": {
+          "visible": false
+        },
+        "64/laser": {
+          "visible": false
+        },
+        "64/ultrasound": {
+          "visible": false
+        },
+        "65/laser": {
+          "visible": false
+        },
+        "65/ultrasound": {
+          "visible": false
+        },
+        "66/laser": {
+          "visible": false
+        },
+        "66/ultrasound": {
+          "visible": false
+        },
+        "67/laser": {
+          "visible": false
+        },
+        "67/ultrasound": {
+          "visible": false
+        },
+        "68/laser": {
+          "visible": false
+        },
+        "68/ultrasound": {
+          "visible": false
+        },
+        "69/laser": {
+          "visible": false
+        },
+        "69/ultrasound": {
+          "visible": false
+        },
+        "7/laser": {
+          "visible": false
+        },
+        "7/ultrasound": {
+          "visible": false
+        },
+        "70/laser": {
+          "visible": false
+        },
+        "70/ultrasound": {
+          "visible": false
+        },
+        "71/laser": {
+          "visible": false
+        },
+        "71/ultrasound": {
+          "visible": false
+        },
+        "72/laser": {
+          "visible": false
+        },
+        "72/ultrasound": {
+          "visible": false
+        },
+        "73/laser": {
+          "visible": false
+        },
+        "73/ultrasound": {
+          "visible": false
+        },
+        "74/laser": {
+          "visible": false
+        },
+        "74/ultrasound": {
+          "visible": false
+        },
+        "75/laser": {
+          "visible": false
+        },
+        "75/ultrasound": {
+          "visible": false
+        },
+        "76/laser": {
+          "visible": false
+        },
+        "76/ultrasound": {
+          "visible": false
+        },
+        "77/laser": {
+          "visible": false
+        },
+        "77/ultrasound": {
+          "visible": false
+        },
+        "78/laser": {
+          "visible": false
+        },
+        "78/ultrasound": {
+          "visible": false
+        },
+        "79/laser": {
+          "visible": false
+        },
+        "79/ultrasound": {
+          "visible": false
+        },
+        "8/laser": {
+          "visible": false
+        },
+        "8/ultrasound": {
+          "visible": false
+        },
+        "80/laser": {
+          "visible": false
+        },
+        "80/ultrasound": {
+          "visible": false
+        },
+        "81/laser": {
+          "visible": false
+        },
+        "81/ultrasound": {
+          "visible": false
+        },
+        "82/laser": {
+          "visible": false
+        },
+        "82/ultrasound": {
+          "visible": false
+        },
+        "83/laser": {
+          "visible": false
+        },
+        "83/ultrasound": {
+          "visible": false
+        },
+        "84/laser": {
+          "visible": false
+        },
+        "84/ultrasound": {
+          "visible": false
+        },
+        "85/laser": {
+          "visible": false
+        },
+        "85/ultrasound": {
+          "visible": false
+        },
+        "86/laser": {
+          "visible": false
+        },
+        "86/ultrasound": {
+          "visible": false
+        },
+        "87/laser": {
+          "visible": false
+        },
+        "87/ultrasound": {
+          "visible": false
+        },
+        "88/laser": {
+          "visible": false
+        },
+        "88/ultrasound": {
+          "visible": false
+        },
+        "89/laser": {
+          "visible": false
+        },
+        "89/ultrasound": {
+          "visible": false
+        },
+        "9/laser": {
+          "visible": false
+        },
+        "9/ultrasound": {
+          "visible": false
+        },
+        "90/laser": {
+          "visible": false
+        },
+        "90/ultrasound": {
+          "visible": false
+        },
+        "91/laser": {
+          "visible": false
+        },
+        "91/ultrasound": {
+          "visible": false
+        },
+        "92/laser": {
+          "visible": false
+        },
+        "92/ultrasound": {
+          "visible": false
+        },
+        "93/laser": {
+          "visible": false
+        },
+        "93/ultrasound": {
+          "visible": false
+        },
+        "94/laser": {
+          "visible": false
+        },
+        "94/ultrasound": {
+          "visible": false
+        },
+        "95/laser": {
+          "visible": false
+        },
+        "95/ultrasound": {
+          "visible": false
+        },
+        "96/laser": {
+          "visible": false
+        },
+        "96/ultrasound": {
+          "visible": false
+        },
+        "97/laser": {
+          "visible": false
+        },
+        "97/ultrasound": {
+          "visible": false
+        },
+        "98/laser": {
+          "visible": false
+        },
+        "98/ultrasound": {
+          "visible": false
+        },
+        "99/laser": {
+          "visible": false
+        },
+        "99/ultrasound": {
+          "visible": false
+        },
+        "10/pose": {
+          "visible": false
+        },
+        "100/pose": {
+          "visible": false
+        },
+        "11/pose": {
+          "visible": false
+        },
+        "12/pose": {
+          "visible": false
+        },
+        "13/pose": {
+          "visible": false
+        },
+        "14/pose": {
+          "visible": false
+        },
+        "15/pose": {
+          "visible": false
+        },
+        "16/pose": {
+          "visible": false
+        },
+        "17/pose": {
+          "visible": false
+        },
+        "18/pose": {
+          "visible": false
+        },
+        "19/pose": {
+          "visible": false
+        },
+        "2/pose": {
+          "visible": false
+        },
+        "20/pose": {
+          "visible": false
+        },
+        "21/pose": {
+          "visible": false
+        },
+        "22/pose": {
+          "visible": false
+        },
+        "23/pose": {
+          "visible": false
+        },
+        "24/pose": {
+          "visible": false
+        },
+        "25/pose": {
+          "visible": false
+        },
+        "26/pose": {
+          "visible": false
+        },
+        "27/pose": {
+          "visible": false
+        },
+        "28/pose": {
+          "visible": false
+        },
+        "29/pose": {
+          "visible": false
+        },
+        "3/pose": {
+          "visible": false
+        },
+        "30/pose": {
+          "visible": false
+        },
+        "31/pose": {
+          "visible": false
+        },
+        "32/pose": {
+          "visible": false
+        },
+        "33/pose": {
+          "visible": false
+        },
+        "34/pose": {
+          "visible": false
+        },
+        "35/pose": {
+          "visible": false
+        },
+        "36/pose": {
+          "visible": false
+        },
+        "37/pose": {
+          "visible": false
+        },
+        "38/pose": {
+          "visible": false
+        },
+        "39/pose": {
+          "visible": false
+        },
+        "4/pose": {
+          "visible": false
+        },
+        "41/pose": {
+          "visible": false
+        },
+        "42/pose": {
+          "visible": false
+        },
+        "43/pose": {
+          "visible": false
+        },
+        "44/pose": {
+          "visible": false
+        },
+        "45/pose": {
+          "visible": false
+        },
+        "46/pose": {
+          "visible": false
+        },
+        "47/pose": {
+          "visible": false
+        },
+        "48/pose": {
+          "visible": false
+        },
+        "49/pose": {
+          "visible": false
+        },
+        "5/pose": {
+          "visible": false
+        },
+        "50/pose": {
+          "visible": false
+        },
+        "51/pose": {
+          "visible": false
+        },
+        "52/pose": {
+          "visible": false
+        },
+        "53/pose": {
+          "visible": false
+        },
+        "54/pose": {
+          "visible": false
+        },
+        "55/pose": {
+          "visible": false
+        },
+        "56/pose": {
+          "visible": false
+        },
+        "57/pose": {
+          "visible": false
+        },
+        "58/pose": {
+          "visible": false
+        },
+        "59/pose": {
+          "visible": false
+        },
+        "6/pose": {
+          "visible": false
+        },
+        "60/pose": {
+          "visible": false
+        },
+        "61/pose": {
+          "visible": false
+        },
+        "62/pose": {
+          "visible": false
+        },
+        "63/pose": {
+          "visible": false
+        },
+        "64/pose": {
+          "visible": false
+        },
+        "65/pose": {
+          "visible": false
+        },
+        "66/pose": {
+          "visible": false
+        },
+        "67/pose": {
+          "visible": false
+        },
+        "68/pose": {
+          "visible": false
+        },
+        "69/pose": {
+          "visible": false
+        },
+        "7/pose": {
+          "visible": false
+        },
+        "70/pose": {
+          "visible": false
+        },
+        "71/pose": {
+          "visible": false
+        },
+        "72/pose": {
+          "visible": false
+        },
+        "73/pose": {
+          "visible": false
+        },
+        "74/pose": {
+          "visible": false
+        },
+        "75/pose": {
+          "visible": false
+        },
+        "76/pose": {
+          "visible": false
+        },
+        "77/pose": {
+          "visible": false
+        },
+        "78/pose": {
+          "visible": false
+        },
+        "79/pose": {
+          "visible": false
+        },
+        "8/pose": {
+          "visible": false
+        },
+        "80/pose": {
+          "visible": false
+        },
+        "81/pose": {
+          "visible": false
+        },
+        "82/pose": {
+          "visible": false
+        },
+        "83/pose": {
+          "visible": false
+        },
+        "84/pose": {
+          "visible": false
+        },
+        "85/pose": {
+          "visible": false
+        },
+        "86/pose": {
+          "visible": false
+        },
+        "87/pose": {
+          "visible": false
+        },
+        "88/pose": {
+          "visible": false
+        },
+        "89/pose": {
+          "visible": false
+        },
+        "9/pose": {
+          "visible": false
+        },
+        "90/pose": {
+          "visible": false
+        },
+        "91/pose": {
+          "visible": false
+        },
+        "92/pose": {
+          "visible": false
+        },
+        "93/pose": {
+          "visible": false
+        },
+        "94/pose": {
+          "visible": false
+        },
+        "95/pose": {
+          "visible": false
+        },
+        "96/pose": {
+          "visible": false
+        },
+        "97/pose": {
+          "visible": false
+        },
+        "98/pose": {
+          "visible": false
+        },
+        "99/pose": {
+          "visible": false
+        },
+        "10/path": {
+          "visible": false
+        },
+        "100/path": {
+          "visible": false
+        },
+        "11/path": {
+          "visible": false
+        },
+        "12/path": {
+          "visible": false
+        },
+        "13/path": {
+          "visible": false
+        },
+        "14/path": {
+          "visible": false
+        },
+        "15/path": {
+          "visible": false
+        },
+        "16/path": {
+          "visible": false
+        },
+        "17/path": {
+          "visible": false
+        },
+        "18/path": {
+          "visible": false
+        },
+        "19/path": {
+          "visible": false
+        },
+        "2/path": {
+          "visible": false
+        },
+        "20/path": {
+          "visible": false
+        },
+        "21/path": {
+          "visible": false
+        },
+        "22/path": {
+          "visible": false
+        },
+        "23/path": {
+          "visible": false
+        },
+        "24/path": {
+          "visible": false
+        },
+        "25/path": {
+          "visible": false
+        },
+        "26/path": {
+          "visible": false
+        },
+        "27/path": {
+          "visible": false
+        },
+        "28/path": {
+          "visible": false
+        },
+        "29/path": {
+          "visible": false
+        },
+        "3/path": {
+          "visible": false
+        },
+        "30/path": {
+          "visible": false
+        },
+        "31/path": {
+          "visible": false
+        },
+        "32/path": {
+          "visible": false
+        },
+        "33/path": {
+          "visible": false
+        },
+        "34/path": {
+          "visible": false
+        },
+        "35/path": {
+          "visible": false
+        },
+        "36/path": {
+          "visible": false
+        },
+        "37/path": {
+          "visible": false
+        },
+        "38/path": {
+          "visible": false
+        },
+        "39/path": {
+          "visible": false
+        },
+        "4/path": {
+          "visible": false
+        },
+        "41/path": {
+          "visible": false
+        },
+        "42/path": {
+          "visible": false
+        },
+        "43/path": {
+          "visible": false
+        },
+        "44/path": {
+          "visible": false
+        },
+        "45/path": {
+          "visible": false
+        },
+        "46/path": {
+          "visible": false
+        },
+        "47/path": {
+          "visible": false
+        },
+        "48/path": {
+          "visible": false
+        },
+        "49/path": {
+          "visible": false
+        },
+        "5/path": {
+          "visible": false
+        },
+        "50/path": {
+          "visible": false
+        },
+        "51/path": {
+          "visible": false
+        },
+        "52/path": {
+          "visible": false
+        },
+        "53/path": {
+          "visible": false
+        },
+        "54/path": {
+          "visible": false
+        },
+        "55/path": {
+          "visible": false
+        },
+        "56/path": {
+          "visible": false
+        },
+        "57/path": {
+          "visible": false
+        },
+        "58/path": {
+          "visible": false
+        },
+        "59/path": {
+          "visible": false
+        },
+        "6/path": {
+          "visible": false
+        },
+        "60/path": {
+          "visible": false
+        },
+        "61/path": {
+          "visible": false
+        },
+        "62/path": {
+          "visible": false
+        },
+        "63/path": {
+          "visible": false
+        },
+        "64/path": {
+          "visible": false
+        },
+        "65/path": {
+          "visible": false
+        },
+        "66/path": {
+          "visible": false
+        },
+        "67/path": {
+          "visible": false
+        },
+        "68/path": {
+          "visible": false
+        },
+        "69/path": {
+          "visible": false
+        },
+        "7/path": {
+          "visible": false
+        },
+        "70/path": {
+          "visible": false
+        },
+        "71/path": {
+          "visible": false
+        },
+        "72/path": {
+          "visible": false
+        },
+        "73/path": {
+          "visible": false
+        },
+        "74/path": {
+          "visible": false
+        },
+        "75/path": {
+          "visible": false
+        },
+        "76/path": {
+          "visible": false
+        },
+        "77/path": {
+          "visible": false
+        },
+        "78/path": {
+          "visible": false
+        },
+        "79/path": {
+          "visible": false
+        },
+        "8/path": {
+          "visible": false
+        },
+        "80/path": {
+          "visible": false
+        },
+        "81/path": {
+          "visible": false
+        },
+        "82/path": {
+          "visible": false
+        },
+        "83/path": {
+          "visible": false
+        },
+        "84/path": {
+          "visible": false
+        },
+        "85/path": {
+          "visible": false
+        },
+        "86/path": {
+          "visible": false
+        },
+        "87/path": {
+          "visible": false
+        },
+        "88/path": {
+          "visible": false
+        },
+        "89/path": {
+          "visible": false
+        },
+        "9/path": {
+          "visible": false
+        },
+        "90/path": {
+          "visible": false
+        },
+        "91/path": {
+          "visible": false
+        },
+        "92/path": {
+          "visible": false
+        },
+        "93/path": {
+          "visible": false
+        },
+        "94/path": {
+          "visible": false
+        },
+        "95/path": {
+          "visible": false
+        },
+        "96/path": {
+          "visible": false
+        },
+        "97/path": {
+          "visible": false
+        },
+        "98/path": {
+          "visible": false
+        },
+        "99/path": {
+          "visible": false
+        },
+        "success/scene": {
+          "visible": false
+        },
+        "partial/scene": {
+          "visible": false
+        },
+        "collision/scene": {
+          "visible": false,
+          "showOutlines": false
+        },
+        "timeout/scene": {
+          "visible": true
+        }
+      },
+      "layers": {
+        "grid": {
+          "visible": true,
+          "frameLocked": true,
+          "label": "Grid",
+          "instanceId": "b0a2c578-3b51-441d-a640-c48d4e52558a",
+          "layerId": "foxglove.Grid",
+          "size": 10,
+          "divisions": 10,
+          "lineWidth": 1,
+          "color": "#248eff",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "publish": {
+        "type": "point",
+        "poseTopic": "/move_base_simple/goal",
+        "pointTopic": "/clicked_point",
+        "poseEstimateTopic": "/initialpose",
+        "poseEstimateXDeviation": 0.5,
+        "poseEstimateYDeviation": 0.5,
+        "poseEstimateThetaDeviation": 0.26179939
+      },
+      "imageMode": {},
+      "followTf": "odom",
+      "foxglovePanelTitle": "Timeout Runs"
+    },
+    "3D!m1jnqt": {
+      "cameraState": {
+        "perspective": true,
+        "distance": 4.756537705101831,
+        "phi": 69.44168166381118,
+        "thetaOffset": 74.95960487969825,
+        "targetOffset": [
+          2.9531420248331224,
+          -0.6545266798082857,
+          1.0391306750954695e-16
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "targetOrientation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "fovy": 45,
+        "near": 0.5,
+        "far": 5000
+      },
+      "followMode": "follow-pose",
+      "scene": {
+        "transforms": {
+          "lineWidth": 0.1,
+          "visible": false
+        },
+        "syncCamera": false,
+        "enableStats": false
+      },
+      "transforms": {
+        "frame:odom": {
+          "visible": true
+        },
+        "frame:id_1": {
+          "visible": true
+        },
+        "frame:id_10": {
+          "visible": false
+        },
+        "frame:id_100": {
+          "visible": false
+        },
+        "frame:id_11": {
+          "visible": false
+        },
+        "frame:id_12": {
+          "visible": false
+        },
+        "frame:id_13": {
+          "visible": false
+        },
+        "frame:id_14": {
+          "visible": false
+        },
+        "frame:id_15": {
+          "visible": false
+        },
+        "frame:id_16": {
+          "visible": false
+        },
+        "frame:id_17": {
+          "visible": false
+        },
+        "frame:id_18": {
+          "visible": false
+        },
+        "frame:id_19": {
+          "visible": false
+        },
+        "frame:id_2": {
+          "visible": false
+        },
+        "frame:id_20": {
+          "visible": false
+        },
+        "frame:id_21": {
+          "visible": false
+        },
+        "frame:id_22": {
+          "visible": false
+        },
+        "frame:id_23": {
+          "visible": false
+        },
+        "frame:id_24": {
+          "visible": false
+        },
+        "frame:id_25": {
+          "visible": false
+        },
+        "frame:id_26": {
+          "visible": false
+        },
+        "frame:id_27": {
+          "visible": false
+        },
+        "frame:id_28": {
+          "visible": false
+        },
+        "frame:id_29": {
+          "visible": false
+        },
+        "frame:id_3": {
+          "visible": false
+        },
+        "frame:id_30": {
+          "visible": false
+        },
+        "frame:id_31": {
+          "visible": false
+        },
+        "frame:id_32": {
+          "visible": false
+        },
+        "frame:id_33": {
+          "visible": false
+        },
+        "frame:id_34": {
+          "visible": false
+        },
+        "frame:id_35": {
+          "visible": false
+        },
+        "frame:id_36": {
+          "visible": false
+        },
+        "frame:id_37": {
+          "visible": false
+        },
+        "frame:id_38": {
+          "visible": false
+        },
+        "frame:id_39": {
+          "visible": false
+        },
+        "frame:id_4": {
+          "visible": false
+        },
+        "frame:id_40": {
+          "visible": true
+        },
+        "frame:id_41": {
+          "visible": false
+        },
+        "frame:id_42": {
+          "visible": false
+        },
+        "frame:id_43": {
+          "visible": false
+        },
+        "frame:id_44": {
+          "visible": false
+        },
+        "frame:id_45": {
+          "visible": false
+        },
+        "frame:id_46": {
+          "visible": false
+        },
+        "frame:id_47": {
+          "visible": false
+        },
+        "frame:id_48": {
+          "visible": false
+        },
+        "frame:id_49": {
+          "visible": false
+        },
+        "frame:id_5": {
+          "visible": false
+        },
+        "frame:id_50": {
+          "visible": false
+        },
+        "frame:id_51": {
+          "visible": false
+        },
+        "frame:id_52": {
+          "visible": false
+        },
+        "frame:id_53": {
+          "visible": false
+        },
+        "frame:id_54": {
+          "visible": false
+        },
+        "frame:id_55": {
+          "visible": false
+        },
+        "frame:id_56": {
+          "visible": false
+        },
+        "frame:id_57": {
+          "visible": false
+        },
+        "frame:id_58": {
+          "visible": false
+        },
+        "frame:id_59": {
+          "visible": false
+        },
+        "frame:id_6": {
+          "visible": false
+        },
+        "frame:id_60": {
+          "visible": false
+        },
+        "frame:id_61": {
+          "visible": false
+        },
+        "frame:id_62": {
+          "visible": false
+        },
+        "frame:id_63": {
+          "visible": false
+        },
+        "frame:id_64": {
+          "visible": false
+        },
+        "frame:id_65": {
+          "visible": false
+        },
+        "frame:id_66": {
+          "visible": false
+        },
+        "frame:id_67": {
+          "visible": false
+        },
+        "frame:id_68": {
+          "visible": false
+        },
+        "frame:id_69": {
+          "visible": false
+        },
+        "frame:id_7": {
+          "visible": false
+        },
+        "frame:id_70": {
+          "visible": false
+        },
+        "frame:id_71": {
+          "visible": false
+        },
+        "frame:id_72": {
+          "visible": false
+        },
+        "frame:id_73": {
+          "visible": false
+        },
+        "frame:id_74": {
+          "visible": false
+        },
+        "frame:id_75": {
+          "visible": false
+        },
+        "frame:id_76": {
+          "visible": false
+        },
+        "frame:id_77": {
+          "visible": false
+        },
+        "frame:id_78": {
+          "visible": false
+        },
+        "frame:id_79": {
+          "visible": false
+        },
+        "frame:id_8": {
+          "visible": false
+        },
+        "frame:id_80": {
+          "visible": false
+        },
+        "frame:id_81": {
+          "visible": false
+        },
+        "frame:id_82": {
+          "visible": false
+        },
+        "frame:id_83": {
+          "visible": false
+        },
+        "frame:id_84": {
+          "visible": false
+        },
+        "frame:id_85": {
+          "visible": false
+        },
+        "frame:id_86": {
+          "visible": false
+        },
+        "frame:id_87": {
+          "visible": false
+        },
+        "frame:id_88": {
+          "visible": false
+        },
+        "frame:id_89": {
+          "visible": false
+        },
+        "frame:id_9": {
+          "visible": false
+        },
+        "frame:id_90": {
+          "visible": false
+        },
+        "frame:id_91": {
+          "visible": false
+        },
+        "frame:id_92": {
+          "visible": false
+        },
+        "frame:id_93": {
+          "visible": false
+        },
+        "frame:id_94": {
+          "visible": false
+        },
+        "frame:id_95": {
+          "visible": false
+        },
+        "frame:id_96": {
+          "visible": false
+        },
+        "frame:id_97": {
+          "visible": false
+        },
+        "frame:id_98": {
+          "visible": false
+        },
+        "frame:id_99": {
+          "visible": false
+        }
+      },
+      "topics": {
+        "1/ultrasound": {
+          "visible": false,
+          "colorField": "intensity",
+          "colorMode": "flat",
+          "colorMap": "turbo",
+          "pointSize": 3,
+          "flatColor": "#ed8080ff",
+          "decayTime": 0
+        },
+        "10/laser": {
+          "visible": false,
+          "colorField": "intensity",
+          "colorMode": "colormap",
+          "colorMap": "turbo"
+        },
+        "1/pose": {
+          "visible": false
+        },
+        "1/laser": {
+          "visible": false,
+          "colorField": "intensity",
+          "colorMode": "flat",
+          "colorMap": "turbo",
+          "pointSize": 5,
+          "pointShape": "square",
+          "flatColor": "#ff0000ff",
+          "decayTime": 0
+        },
+        "40/pose": {
+          "visible": false
+        },
+        "40/laser": {
+          "visible": false,
+          "colorField": "intensity",
+          "colorMode": "flat",
+          "colorMap": "turbo",
+          "pointShape": "square",
+          "pointSize": 5,
+          "decayTime": 0,
+          "flatColor": "#00ff48ff"
+        },
+        "40/ultrasound": {
+          "visible": false,
+          "colorField": "intensity",
+          "colorMode": "flat",
+          "colorMap": "turbo",
+          "flatColor": "#0dff00ff",
+          "pointSize": 3,
+          "decayTime": 0
+        },
+        "1/path": {
+          "visible": false,
+          "type": "line",
+          "gradient": [
+            "#ff6b6bff",
+            "#ff6b6b80"
+          ]
+        },
+        "40/path": {
+          "visible": false,
+          "type": "line",
+          "gradient": [
+            "#6bff86ff",
+            "#6dff6b80"
+          ]
+        },
+        "/scene": {
+          "visible": true,
+          "selectedIdVariable": "",
+          "computeVertexNormals": true,
+          "showOutlines": true
+        },
+        "10/ultrasound": {
+          "visible": false
+        },
+        "100/laser": {
+          "visible": false
+        },
+        "100/ultrasound": {
+          "visible": false
+        },
+        "11/laser": {
+          "visible": false
+        },
+        "11/ultrasound": {
+          "visible": false
+        },
+        "12/laser": {
+          "visible": false
+        },
+        "12/ultrasound": {
+          "visible": false
+        },
+        "13/laser": {
+          "visible": false
+        },
+        "13/ultrasound": {
+          "visible": false
+        },
+        "14/laser": {
+          "visible": false
+        },
+        "14/ultrasound": {
+          "visible": false
+        },
+        "15/laser": {
+          "visible": false
+        },
+        "15/ultrasound": {
+          "visible": false
+        },
+        "16/laser": {
+          "visible": false
+        },
+        "16/ultrasound": {
+          "visible": false
+        },
+        "17/laser": {
+          "visible": false
+        },
+        "17/ultrasound": {
+          "visible": false
+        },
+        "18/laser": {
+          "visible": false
+        },
+        "18/ultrasound": {
+          "visible": false
+        },
+        "19/laser": {
+          "visible": false
+        },
+        "19/ultrasound": {
+          "visible": false
+        },
+        "2/laser": {
+          "visible": false
+        },
+        "2/ultrasound": {
+          "visible": false
+        },
+        "20/laser": {
+          "visible": false
+        },
+        "20/ultrasound": {
+          "visible": false
+        },
+        "21/laser": {
+          "visible": false
+        },
+        "21/ultrasound": {
+          "visible": false
+        },
+        "22/laser": {
+          "visible": false
+        },
+        "22/ultrasound": {
+          "visible": false
+        },
+        "23/laser": {
+          "visible": false
+        },
+        "23/ultrasound": {
+          "visible": false
+        },
+        "24/laser": {
+          "visible": false
+        },
+        "24/ultrasound": {
+          "visible": false
+        },
+        "25/laser": {
+          "visible": false
+        },
+        "25/ultrasound": {
+          "visible": false
+        },
+        "26/laser": {
+          "visible": false
+        },
+        "26/ultrasound": {
+          "visible": false
+        },
+        "27/laser": {
+          "visible": false
+        },
+        "27/ultrasound": {
+          "visible": false
+        },
+        "28/laser": {
+          "visible": false
+        },
+        "28/ultrasound": {
+          "visible": false
+        },
+        "29/laser": {
+          "visible": false
+        },
+        "29/ultrasound": {
+          "visible": false
+        },
+        "3/laser": {
+          "visible": false
+        },
+        "3/ultrasound": {
+          "visible": false
+        },
+        "30/laser": {
+          "visible": false
+        },
+        "30/ultrasound": {
+          "visible": false
+        },
+        "31/laser": {
+          "visible": false
+        },
+        "31/ultrasound": {
+          "visible": false
+        },
+        "32/laser": {
+          "visible": false
+        },
+        "32/ultrasound": {
+          "visible": false
+        },
+        "33/laser": {
+          "visible": false
+        },
+        "33/ultrasound": {
+          "visible": false
+        },
+        "34/laser": {
+          "visible": false
+        },
+        "34/ultrasound": {
+          "visible": false
+        },
+        "35/laser": {
+          "visible": false
+        },
+        "35/ultrasound": {
+          "visible": false
+        },
+        "36/laser": {
+          "visible": false
+        },
+        "36/ultrasound": {
+          "visible": false
+        },
+        "37/laser": {
+          "visible": false
+        },
+        "37/ultrasound": {
+          "visible": false
+        },
+        "38/laser": {
+          "visible": false
+        },
+        "38/ultrasound": {
+          "visible": false
+        },
+        "39/laser": {
+          "visible": false
+        },
+        "39/ultrasound": {
+          "visible": false
+        },
+        "4/laser": {
+          "visible": false
+        },
+        "4/ultrasound": {
+          "visible": false
+        },
+        "41/laser": {
+          "visible": false
+        },
+        "41/ultrasound": {
+          "visible": false
+        },
+        "42/laser": {
+          "visible": false
+        },
+        "42/ultrasound": {
+          "visible": false
+        },
+        "43/laser": {
+          "visible": false
+        },
+        "43/ultrasound": {
+          "visible": false
+        },
+        "44/laser": {
+          "visible": false
+        },
+        "44/ultrasound": {
+          "visible": false
+        },
+        "45/laser": {
+          "visible": false
+        },
+        "45/ultrasound": {
+          "visible": false
+        },
+        "46/laser": {
+          "visible": false
+        },
+        "46/ultrasound": {
+          "visible": false
+        },
+        "47/laser": {
+          "visible": false
+        },
+        "47/ultrasound": {
+          "visible": false
+        },
+        "48/laser": {
+          "visible": false
+        },
+        "48/ultrasound": {
+          "visible": false
+        },
+        "49/laser": {
+          "visible": false
+        },
+        "49/ultrasound": {
+          "visible": false
+        },
+        "5/laser": {
+          "visible": false
+        },
+        "5/ultrasound": {
+          "visible": false
+        },
+        "50/laser": {
+          "visible": false
+        },
+        "50/ultrasound": {
+          "visible": false
+        },
+        "51/laser": {
+          "visible": false
+        },
+        "51/ultrasound": {
+          "visible": false
+        },
+        "52/laser": {
+          "visible": false
+        },
+        "52/ultrasound": {
+          "visible": false
+        },
+        "53/laser": {
+          "visible": false
+        },
+        "53/ultrasound": {
+          "visible": false
+        },
+        "54/laser": {
+          "visible": false
+        },
+        "54/ultrasound": {
+          "visible": false
+        },
+        "55/laser": {
+          "visible": false
+        },
+        "55/ultrasound": {
+          "visible": false
+        },
+        "56/laser": {
+          "visible": false
+        },
+        "56/ultrasound": {
+          "visible": false
+        },
+        "57/laser": {
+          "visible": false
+        },
+        "57/ultrasound": {
+          "visible": false
+        },
+        "58/laser": {
+          "visible": false
+        },
+        "58/ultrasound": {
+          "visible": false
+        },
+        "59/laser": {
+          "visible": false
+        },
+        "59/ultrasound": {
+          "visible": false
+        },
+        "6/laser": {
+          "visible": false
+        },
+        "6/ultrasound": {
+          "visible": false
+        },
+        "60/laser": {
+          "visible": false
+        },
+        "60/ultrasound": {
+          "visible": false
+        },
+        "61/laser": {
+          "visible": false
+        },
+        "61/ultrasound": {
+          "visible": false
+        },
+        "62/laser": {
+          "visible": false
+        },
+        "62/ultrasound": {
+          "visible": false
+        },
+        "63/laser": {
+          "visible": false
+        },
+        "63/ultrasound": {
+          "visible": false
+        },
+        "64/laser": {
+          "visible": false
+        },
+        "64/ultrasound": {
+          "visible": false
+        },
+        "65/laser": {
+          "visible": false
+        },
+        "65/ultrasound": {
+          "visible": false
+        },
+        "66/laser": {
+          "visible": false
+        },
+        "66/ultrasound": {
+          "visible": false
+        },
+        "67/laser": {
+          "visible": false
+        },
+        "67/ultrasound": {
+          "visible": false
+        },
+        "68/laser": {
+          "visible": false
+        },
+        "68/ultrasound": {
+          "visible": false
+        },
+        "69/laser": {
+          "visible": false
+        },
+        "69/ultrasound": {
+          "visible": false
+        },
+        "7/laser": {
+          "visible": false
+        },
+        "7/ultrasound": {
+          "visible": false
+        },
+        "70/laser": {
+          "visible": false
+        },
+        "70/ultrasound": {
+          "visible": false
+        },
+        "71/laser": {
+          "visible": false
+        },
+        "71/ultrasound": {
+          "visible": false
+        },
+        "72/laser": {
+          "visible": false
+        },
+        "72/ultrasound": {
+          "visible": false
+        },
+        "73/laser": {
+          "visible": false
+        },
+        "73/ultrasound": {
+          "visible": false
+        },
+        "74/laser": {
+          "visible": false
+        },
+        "74/ultrasound": {
+          "visible": false
+        },
+        "75/laser": {
+          "visible": false
+        },
+        "75/ultrasound": {
+          "visible": false
+        },
+        "76/laser": {
+          "visible": false
+        },
+        "76/ultrasound": {
+          "visible": false
+        },
+        "77/laser": {
+          "visible": false
+        },
+        "77/ultrasound": {
+          "visible": false
+        },
+        "78/laser": {
+          "visible": false
+        },
+        "78/ultrasound": {
+          "visible": false
+        },
+        "79/laser": {
+          "visible": false
+        },
+        "79/ultrasound": {
+          "visible": false
+        },
+        "8/laser": {
+          "visible": false
+        },
+        "8/ultrasound": {
+          "visible": false
+        },
+        "80/laser": {
+          "visible": false
+        },
+        "80/ultrasound": {
+          "visible": false
+        },
+        "81/laser": {
+          "visible": false
+        },
+        "81/ultrasound": {
+          "visible": false
+        },
+        "82/laser": {
+          "visible": false
+        },
+        "82/ultrasound": {
+          "visible": false
+        },
+        "83/laser": {
+          "visible": false
+        },
+        "83/ultrasound": {
+          "visible": false
+        },
+        "84/laser": {
+          "visible": false
+        },
+        "84/ultrasound": {
+          "visible": false
+        },
+        "85/laser": {
+          "visible": false
+        },
+        "85/ultrasound": {
+          "visible": false
+        },
+        "86/laser": {
+          "visible": false
+        },
+        "86/ultrasound": {
+          "visible": false
+        },
+        "87/laser": {
+          "visible": false
+        },
+        "87/ultrasound": {
+          "visible": false
+        },
+        "88/laser": {
+          "visible": false
+        },
+        "88/ultrasound": {
+          "visible": false
+        },
+        "89/laser": {
+          "visible": false
+        },
+        "89/ultrasound": {
+          "visible": false
+        },
+        "9/laser": {
+          "visible": false
+        },
+        "9/ultrasound": {
+          "visible": false
+        },
+        "90/laser": {
+          "visible": false
+        },
+        "90/ultrasound": {
+          "visible": false
+        },
+        "91/laser": {
+          "visible": false
+        },
+        "91/ultrasound": {
+          "visible": false
+        },
+        "92/laser": {
+          "visible": false
+        },
+        "92/ultrasound": {
+          "visible": false
+        },
+        "93/laser": {
+          "visible": false
+        },
+        "93/ultrasound": {
+          "visible": false
+        },
+        "94/laser": {
+          "visible": false
+        },
+        "94/ultrasound": {
+          "visible": false
+        },
+        "95/laser": {
+          "visible": false
+        },
+        "95/ultrasound": {
+          "visible": false
+        },
+        "96/laser": {
+          "visible": false
+        },
+        "96/ultrasound": {
+          "visible": false
+        },
+        "97/laser": {
+          "visible": false
+        },
+        "97/ultrasound": {
+          "visible": false
+        },
+        "98/laser": {
+          "visible": false
+        },
+        "98/ultrasound": {
+          "visible": false
+        },
+        "99/laser": {
+          "visible": false
+        },
+        "99/ultrasound": {
+          "visible": false
+        },
+        "10/pose": {
+          "visible": false
+        },
+        "100/pose": {
+          "visible": false
+        },
+        "11/pose": {
+          "visible": false
+        },
+        "12/pose": {
+          "visible": false
+        },
+        "13/pose": {
+          "visible": false
+        },
+        "14/pose": {
+          "visible": false
+        },
+        "15/pose": {
+          "visible": false
+        },
+        "16/pose": {
+          "visible": false
+        },
+        "17/pose": {
+          "visible": false
+        },
+        "18/pose": {
+          "visible": false
+        },
+        "19/pose": {
+          "visible": false
+        },
+        "2/pose": {
+          "visible": false
+        },
+        "20/pose": {
+          "visible": false
+        },
+        "21/pose": {
+          "visible": false
+        },
+        "22/pose": {
+          "visible": false
+        },
+        "23/pose": {
+          "visible": false
+        },
+        "24/pose": {
+          "visible": false
+        },
+        "25/pose": {
+          "visible": false
+        },
+        "26/pose": {
+          "visible": false
+        },
+        "27/pose": {
+          "visible": false
+        },
+        "28/pose": {
+          "visible": false
+        },
+        "29/pose": {
+          "visible": false
+        },
+        "3/pose": {
+          "visible": false
+        },
+        "30/pose": {
+          "visible": false
+        },
+        "31/pose": {
+          "visible": false
+        },
+        "32/pose": {
+          "visible": false
+        },
+        "33/pose": {
+          "visible": false
+        },
+        "34/pose": {
+          "visible": false
+        },
+        "35/pose": {
+          "visible": false
+        },
+        "36/pose": {
+          "visible": false
+        },
+        "37/pose": {
+          "visible": false
+        },
+        "38/pose": {
+          "visible": false
+        },
+        "39/pose": {
+          "visible": false
+        },
+        "4/pose": {
+          "visible": false
+        },
+        "41/pose": {
+          "visible": false
+        },
+        "42/pose": {
+          "visible": false
+        },
+        "43/pose": {
+          "visible": false
+        },
+        "44/pose": {
+          "visible": false
+        },
+        "45/pose": {
+          "visible": false
+        },
+        "46/pose": {
+          "visible": false
+        },
+        "47/pose": {
+          "visible": false
+        },
+        "48/pose": {
+          "visible": false
+        },
+        "49/pose": {
+          "visible": false
+        },
+        "5/pose": {
+          "visible": false
+        },
+        "50/pose": {
+          "visible": false
+        },
+        "51/pose": {
+          "visible": false
+        },
+        "52/pose": {
+          "visible": false
+        },
+        "53/pose": {
+          "visible": false
+        },
+        "54/pose": {
+          "visible": false
+        },
+        "55/pose": {
+          "visible": false
+        },
+        "56/pose": {
+          "visible": false
+        },
+        "57/pose": {
+          "visible": false
+        },
+        "58/pose": {
+          "visible": false
+        },
+        "59/pose": {
+          "visible": false
+        },
+        "6/pose": {
+          "visible": false
+        },
+        "60/pose": {
+          "visible": false
+        },
+        "61/pose": {
+          "visible": false
+        },
+        "62/pose": {
+          "visible": false
+        },
+        "63/pose": {
+          "visible": false
+        },
+        "64/pose": {
+          "visible": false
+        },
+        "65/pose": {
+          "visible": false
+        },
+        "66/pose": {
+          "visible": false
+        },
+        "67/pose": {
+          "visible": false
+        },
+        "68/pose": {
+          "visible": false
+        },
+        "69/pose": {
+          "visible": false
+        },
+        "7/pose": {
+          "visible": false
+        },
+        "70/pose": {
+          "visible": false
+        },
+        "71/pose": {
+          "visible": false
+        },
+        "72/pose": {
+          "visible": false
+        },
+        "73/pose": {
+          "visible": false
+        },
+        "74/pose": {
+          "visible": false
+        },
+        "75/pose": {
+          "visible": false
+        },
+        "76/pose": {
+          "visible": false
+        },
+        "77/pose": {
+          "visible": false
+        },
+        "78/pose": {
+          "visible": false
+        },
+        "79/pose": {
+          "visible": false
+        },
+        "8/pose": {
+          "visible": false
+        },
+        "80/pose": {
+          "visible": false
+        },
+        "81/pose": {
+          "visible": false
+        },
+        "82/pose": {
+          "visible": false
+        },
+        "83/pose": {
+          "visible": false
+        },
+        "84/pose": {
+          "visible": false
+        },
+        "85/pose": {
+          "visible": false
+        },
+        "86/pose": {
+          "visible": false
+        },
+        "87/pose": {
+          "visible": false
+        },
+        "88/pose": {
+          "visible": false
+        },
+        "89/pose": {
+          "visible": false
+        },
+        "9/pose": {
+          "visible": false
+        },
+        "90/pose": {
+          "visible": false
+        },
+        "91/pose": {
+          "visible": false
+        },
+        "92/pose": {
+          "visible": false
+        },
+        "93/pose": {
+          "visible": false
+        },
+        "94/pose": {
+          "visible": false
+        },
+        "95/pose": {
+          "visible": false
+        },
+        "96/pose": {
+          "visible": false
+        },
+        "97/pose": {
+          "visible": false
+        },
+        "98/pose": {
+          "visible": false
+        },
+        "99/pose": {
+          "visible": false
+        },
+        "10/path": {
+          "visible": false
+        },
+        "100/path": {
+          "visible": false
+        },
+        "11/path": {
+          "visible": false
+        },
+        "12/path": {
+          "visible": false
+        },
+        "13/path": {
+          "visible": false
+        },
+        "14/path": {
+          "visible": false
+        },
+        "15/path": {
+          "visible": false
+        },
+        "16/path": {
+          "visible": false
+        },
+        "17/path": {
+          "visible": false
+        },
+        "18/path": {
+          "visible": false
+        },
+        "19/path": {
+          "visible": false
+        },
+        "2/path": {
+          "visible": false
+        },
+        "20/path": {
+          "visible": false
+        },
+        "21/path": {
+          "visible": false
+        },
+        "22/path": {
+          "visible": false
+        },
+        "23/path": {
+          "visible": false
+        },
+        "24/path": {
+          "visible": false
+        },
+        "25/path": {
+          "visible": false
+        },
+        "26/path": {
+          "visible": false
+        },
+        "27/path": {
+          "visible": false
+        },
+        "28/path": {
+          "visible": false
+        },
+        "29/path": {
+          "visible": false
+        },
+        "3/path": {
+          "visible": false
+        },
+        "30/path": {
+          "visible": false
+        },
+        "31/path": {
+          "visible": false
+        },
+        "32/path": {
+          "visible": false
+        },
+        "33/path": {
+          "visible": false
+        },
+        "34/path": {
+          "visible": false
+        },
+        "35/path": {
+          "visible": false
+        },
+        "36/path": {
+          "visible": false
+        },
+        "37/path": {
+          "visible": false
+        },
+        "38/path": {
+          "visible": false
+        },
+        "39/path": {
+          "visible": false
+        },
+        "4/path": {
+          "visible": false
+        },
+        "41/path": {
+          "visible": false
+        },
+        "42/path": {
+          "visible": false
+        },
+        "43/path": {
+          "visible": false
+        },
+        "44/path": {
+          "visible": false
+        },
+        "45/path": {
+          "visible": false
+        },
+        "46/path": {
+          "visible": false
+        },
+        "47/path": {
+          "visible": false
+        },
+        "48/path": {
+          "visible": false
+        },
+        "49/path": {
+          "visible": false
+        },
+        "5/path": {
+          "visible": false
+        },
+        "50/path": {
+          "visible": false
+        },
+        "51/path": {
+          "visible": false
+        },
+        "52/path": {
+          "visible": false
+        },
+        "53/path": {
+          "visible": false
+        },
+        "54/path": {
+          "visible": false
+        },
+        "55/path": {
+          "visible": false
+        },
+        "56/path": {
+          "visible": false
+        },
+        "57/path": {
+          "visible": false
+        },
+        "58/path": {
+          "visible": false
+        },
+        "59/path": {
+          "visible": false
+        },
+        "6/path": {
+          "visible": false
+        },
+        "60/path": {
+          "visible": false
+        },
+        "61/path": {
+          "visible": false
+        },
+        "62/path": {
+          "visible": false
+        },
+        "63/path": {
+          "visible": false
+        },
+        "64/path": {
+          "visible": false
+        },
+        "65/path": {
+          "visible": false
+        },
+        "66/path": {
+          "visible": false
+        },
+        "67/path": {
+          "visible": false
+        },
+        "68/path": {
+          "visible": false
+        },
+        "69/path": {
+          "visible": false
+        },
+        "7/path": {
+          "visible": false
+        },
+        "70/path": {
+          "visible": false
+        },
+        "71/path": {
+          "visible": false
+        },
+        "72/path": {
+          "visible": false
+        },
+        "73/path": {
+          "visible": false
+        },
+        "74/path": {
+          "visible": false
+        },
+        "75/path": {
+          "visible": false
+        },
+        "76/path": {
+          "visible": false
+        },
+        "77/path": {
+          "visible": false
+        },
+        "78/path": {
+          "visible": false
+        },
+        "79/path": {
+          "visible": false
+        },
+        "8/path": {
+          "visible": false
+        },
+        "80/path": {
+          "visible": false
+        },
+        "81/path": {
+          "visible": false
+        },
+        "82/path": {
+          "visible": false
+        },
+        "83/path": {
+          "visible": false
+        },
+        "84/path": {
+          "visible": false
+        },
+        "85/path": {
+          "visible": false
+        },
+        "86/path": {
+          "visible": false
+        },
+        "87/path": {
+          "visible": false
+        },
+        "88/path": {
+          "visible": false
+        },
+        "89/path": {
+          "visible": false
+        },
+        "9/path": {
+          "visible": false
+        },
+        "90/path": {
+          "visible": false
+        },
+        "91/path": {
+          "visible": false
+        },
+        "92/path": {
+          "visible": false
+        },
+        "93/path": {
+          "visible": false
+        },
+        "94/path": {
+          "visible": false
+        },
+        "95/path": {
+          "visible": false
+        },
+        "96/path": {
+          "visible": false
+        },
+        "97/path": {
+          "visible": false
+        },
+        "98/path": {
+          "visible": false
+        },
+        "99/path": {
+          "visible": false
+        },
+        "success/scene": {
+          "visible": false
+        },
+        "partial/scene": {
+          "visible": true
+        },
+        "collision/scene": {
+          "visible": false
+        },
+        "timeout/scene": {
+          "visible": false
+        }
+      },
+      "layers": {
+        "grid": {
+          "visible": true,
+          "frameLocked": true,
+          "label": "Grid",
+          "instanceId": "b0a2c578-3b51-441d-a640-c48d4e52558a",
+          "layerId": "foxglove.Grid",
+          "size": 10,
+          "divisions": 10,
+          "lineWidth": 1,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "publish": {
+        "type": "point",
+        "poseTopic": "/move_base_simple/goal",
+        "pointTopic": "/clicked_point",
+        "poseEstimateTopic": "/initialpose",
+        "poseEstimateXDeviation": 0.5,
+        "poseEstimateYDeviation": 0.5,
+        "poseEstimateThetaDeviation": 0.26179939
+      },
+      "imageMode": {},
+      "followTf": "odom",
+      "foxglovePanelTitle": "Partial Runs"
+    },
+    "3D!115agn2": {
+      "cameraState": {
+        "perspective": true,
+        "distance": 8.362406704374841,
+        "phi": 67.61427048993545,
+        "thetaOffset": 54.920787338328616,
+        "targetOffset": [
+          5.505720559773275,
+          -0.48940630179804423,
+          4.061023871816503e-16
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "targetOrientation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "fovy": 45,
+        "near": 0.5,
+        "far": 5000
+      },
+      "followMode": "follow-pose",
+      "scene": {
+        "transforms": {
+          "lineWidth": 0.1,
+          "visible": false
+        },
+        "syncCamera": false
+      },
+      "transforms": {
+        "frame:odom": {
+          "visible": true
+        },
+        "frame:id_1": {
+          "visible": true
+        },
+        "frame:id_10": {
+          "visible": false
+        },
+        "frame:id_100": {
+          "visible": false
+        },
+        "frame:id_11": {
+          "visible": false
+        },
+        "frame:id_12": {
+          "visible": false
+        },
+        "frame:id_13": {
+          "visible": false
+        },
+        "frame:id_14": {
+          "visible": false
+        },
+        "frame:id_15": {
+          "visible": false
+        },
+        "frame:id_16": {
+          "visible": false
+        },
+        "frame:id_17": {
+          "visible": false
+        },
+        "frame:id_18": {
+          "visible": false
+        },
+        "frame:id_19": {
+          "visible": false
+        },
+        "frame:id_2": {
+          "visible": false
+        },
+        "frame:id_20": {
+          "visible": false
+        },
+        "frame:id_21": {
+          "visible": false
+        },
+        "frame:id_22": {
+          "visible": false
+        },
+        "frame:id_23": {
+          "visible": false
+        },
+        "frame:id_24": {
+          "visible": false
+        },
+        "frame:id_25": {
+          "visible": false
+        },
+        "frame:id_26": {
+          "visible": false
+        },
+        "frame:id_27": {
+          "visible": false
+        },
+        "frame:id_28": {
+          "visible": false
+        },
+        "frame:id_29": {
+          "visible": false
+        },
+        "frame:id_3": {
+          "visible": false
+        },
+        "frame:id_30": {
+          "visible": false
+        },
+        "frame:id_31": {
+          "visible": false
+        },
+        "frame:id_32": {
+          "visible": false
+        },
+        "frame:id_33": {
+          "visible": false
+        },
+        "frame:id_34": {
+          "visible": false
+        },
+        "frame:id_35": {
+          "visible": false
+        },
+        "frame:id_36": {
+          "visible": false
+        },
+        "frame:id_37": {
+          "visible": false
+        },
+        "frame:id_38": {
+          "visible": false
+        },
+        "frame:id_39": {
+          "visible": false
+        },
+        "frame:id_4": {
+          "visible": false
+        },
+        "frame:id_40": {
+          "visible": true
+        },
+        "frame:id_41": {
+          "visible": false
+        },
+        "frame:id_42": {
+          "visible": false
+        },
+        "frame:id_43": {
+          "visible": false
+        },
+        "frame:id_44": {
+          "visible": false
+        },
+        "frame:id_45": {
+          "visible": false
+        },
+        "frame:id_46": {
+          "visible": false
+        },
+        "frame:id_47": {
+          "visible": false
+        },
+        "frame:id_48": {
+          "visible": false
+        },
+        "frame:id_49": {
+          "visible": false
+        },
+        "frame:id_5": {
+          "visible": false
+        },
+        "frame:id_50": {
+          "visible": false
+        },
+        "frame:id_51": {
+          "visible": false
+        },
+        "frame:id_52": {
+          "visible": false
+        },
+        "frame:id_53": {
+          "visible": false
+        },
+        "frame:id_54": {
+          "visible": false
+        },
+        "frame:id_55": {
+          "visible": false
+        },
+        "frame:id_56": {
+          "visible": false
+        },
+        "frame:id_57": {
+          "visible": false
+        },
+        "frame:id_58": {
+          "visible": false
+        },
+        "frame:id_59": {
+          "visible": false
+        },
+        "frame:id_6": {
+          "visible": false
+        },
+        "frame:id_60": {
+          "visible": false
+        },
+        "frame:id_61": {
+          "visible": false
+        },
+        "frame:id_62": {
+          "visible": false
+        },
+        "frame:id_63": {
+          "visible": false
+        },
+        "frame:id_64": {
+          "visible": false
+        },
+        "frame:id_65": {
+          "visible": false
+        },
+        "frame:id_66": {
+          "visible": false
+        },
+        "frame:id_67": {
+          "visible": false
+        },
+        "frame:id_68": {
+          "visible": false
+        },
+        "frame:id_69": {
+          "visible": false
+        },
+        "frame:id_7": {
+          "visible": false
+        },
+        "frame:id_70": {
+          "visible": false
+        },
+        "frame:id_71": {
+          "visible": false
+        },
+        "frame:id_72": {
+          "visible": false
+        },
+        "frame:id_73": {
+          "visible": false
+        },
+        "frame:id_74": {
+          "visible": false
+        },
+        "frame:id_75": {
+          "visible": false
+        },
+        "frame:id_76": {
+          "visible": false
+        },
+        "frame:id_77": {
+          "visible": false
+        },
+        "frame:id_78": {
+          "visible": false
+        },
+        "frame:id_79": {
+          "visible": false
+        },
+        "frame:id_8": {
+          "visible": false
+        },
+        "frame:id_80": {
+          "visible": false
+        },
+        "frame:id_81": {
+          "visible": false
+        },
+        "frame:id_82": {
+          "visible": false
+        },
+        "frame:id_83": {
+          "visible": false
+        },
+        "frame:id_84": {
+          "visible": false
+        },
+        "frame:id_85": {
+          "visible": false
+        },
+        "frame:id_86": {
+          "visible": false
+        },
+        "frame:id_87": {
+          "visible": false
+        },
+        "frame:id_88": {
+          "visible": false
+        },
+        "frame:id_89": {
+          "visible": false
+        },
+        "frame:id_9": {
+          "visible": false
+        },
+        "frame:id_90": {
+          "visible": false
+        },
+        "frame:id_91": {
+          "visible": false
+        },
+        "frame:id_92": {
+          "visible": false
+        },
+        "frame:id_93": {
+          "visible": false
+        },
+        "frame:id_94": {
+          "visible": false
+        },
+        "frame:id_95": {
+          "visible": false
+        },
+        "frame:id_96": {
+          "visible": false
+        },
+        "frame:id_97": {
+          "visible": false
+        },
+        "frame:id_98": {
+          "visible": false
+        },
+        "frame:id_99": {
+          "visible": false
+        }
+      },
+      "topics": {
+        "1/ultrasound": {
+          "visible": false,
+          "colorField": "intensity",
+          "colorMode": "flat",
+          "colorMap": "turbo",
+          "pointSize": 3,
+          "flatColor": "#ed8080ff",
+          "decayTime": 0
+        },
+        "10/laser": {
+          "visible": false,
+          "colorField": "intensity",
+          "colorMode": "colormap",
+          "colorMap": "turbo"
+        },
+        "1/pose": {
+          "visible": false
+        },
+        "1/laser": {
+          "visible": false,
+          "colorField": "intensity",
+          "colorMode": "flat",
+          "colorMap": "turbo",
+          "pointSize": 5,
+          "pointShape": "square",
+          "flatColor": "#ff0000ff",
+          "decayTime": 0
+        },
+        "40/pose": {
+          "visible": false
+        },
+        "40/laser": {
+          "visible": false,
+          "colorField": "intensity",
+          "colorMode": "flat",
+          "colorMap": "turbo",
+          "pointShape": "square",
+          "pointSize": 5,
+          "decayTime": 0,
+          "flatColor": "#00ff48ff"
+        },
+        "40/ultrasound": {
+          "visible": false,
+          "colorField": "intensity",
+          "colorMode": "flat",
+          "colorMap": "turbo",
+          "flatColor": "#0dff00ff",
+          "pointSize": 3,
+          "decayTime": 0
+        },
+        "1/path": {
+          "visible": false,
+          "type": "line",
+          "gradient": [
+            "#ff6b6bff",
+            "#ff6b6b80"
+          ]
+        },
+        "40/path": {
+          "visible": false,
+          "type": "line",
+          "gradient": [
+            "#6bff86ff",
+            "#6dff6b80"
+          ]
+        },
+        "/scene": {
+          "visible": true,
+          "selectedIdVariable": "",
+          "computeVertexNormals": true,
+          "showOutlines": true
+        },
+        "10/ultrasound": {
+          "visible": false
+        },
+        "100/laser": {
+          "visible": false
+        },
+        "100/ultrasound": {
+          "visible": false
+        },
+        "11/laser": {
+          "visible": false
+        },
+        "11/ultrasound": {
+          "visible": false
+        },
+        "12/laser": {
+          "visible": false
+        },
+        "12/ultrasound": {
+          "visible": false
+        },
+        "13/laser": {
+          "visible": false
+        },
+        "13/ultrasound": {
+          "visible": false
+        },
+        "14/laser": {
+          "visible": false
+        },
+        "14/ultrasound": {
+          "visible": false
+        },
+        "15/laser": {
+          "visible": false
+        },
+        "15/ultrasound": {
+          "visible": false
+        },
+        "16/laser": {
+          "visible": false
+        },
+        "16/ultrasound": {
+          "visible": false
+        },
+        "17/laser": {
+          "visible": false
+        },
+        "17/ultrasound": {
+          "visible": false
+        },
+        "18/laser": {
+          "visible": false
+        },
+        "18/ultrasound": {
+          "visible": false
+        },
+        "19/laser": {
+          "visible": false
+        },
+        "19/ultrasound": {
+          "visible": false
+        },
+        "2/laser": {
+          "visible": false
+        },
+        "2/ultrasound": {
+          "visible": false
+        },
+        "20/laser": {
+          "visible": false
+        },
+        "20/ultrasound": {
+          "visible": false
+        },
+        "21/laser": {
+          "visible": false
+        },
+        "21/ultrasound": {
+          "visible": false
+        },
+        "22/laser": {
+          "visible": false
+        },
+        "22/ultrasound": {
+          "visible": false
+        },
+        "23/laser": {
+          "visible": false
+        },
+        "23/ultrasound": {
+          "visible": false
+        },
+        "24/laser": {
+          "visible": false
+        },
+        "24/ultrasound": {
+          "visible": false
+        },
+        "25/laser": {
+          "visible": false
+        },
+        "25/ultrasound": {
+          "visible": false
+        },
+        "26/laser": {
+          "visible": false
+        },
+        "26/ultrasound": {
+          "visible": false
+        },
+        "27/laser": {
+          "visible": false
+        },
+        "27/ultrasound": {
+          "visible": false
+        },
+        "28/laser": {
+          "visible": false
+        },
+        "28/ultrasound": {
+          "visible": false
+        },
+        "29/laser": {
+          "visible": false
+        },
+        "29/ultrasound": {
+          "visible": false
+        },
+        "3/laser": {
+          "visible": false
+        },
+        "3/ultrasound": {
+          "visible": false
+        },
+        "30/laser": {
+          "visible": false
+        },
+        "30/ultrasound": {
+          "visible": false
+        },
+        "31/laser": {
+          "visible": false
+        },
+        "31/ultrasound": {
+          "visible": false
+        },
+        "32/laser": {
+          "visible": false
+        },
+        "32/ultrasound": {
+          "visible": false
+        },
+        "33/laser": {
+          "visible": false
+        },
+        "33/ultrasound": {
+          "visible": false
+        },
+        "34/laser": {
+          "visible": false
+        },
+        "34/ultrasound": {
+          "visible": false
+        },
+        "35/laser": {
+          "visible": false
+        },
+        "35/ultrasound": {
+          "visible": false
+        },
+        "36/laser": {
+          "visible": false
+        },
+        "36/ultrasound": {
+          "visible": false
+        },
+        "37/laser": {
+          "visible": false
+        },
+        "37/ultrasound": {
+          "visible": false
+        },
+        "38/laser": {
+          "visible": false
+        },
+        "38/ultrasound": {
+          "visible": false
+        },
+        "39/laser": {
+          "visible": false
+        },
+        "39/ultrasound": {
+          "visible": false
+        },
+        "4/laser": {
+          "visible": false
+        },
+        "4/ultrasound": {
+          "visible": false
+        },
+        "41/laser": {
+          "visible": false
+        },
+        "41/ultrasound": {
+          "visible": false
+        },
+        "42/laser": {
+          "visible": false
+        },
+        "42/ultrasound": {
+          "visible": false
+        },
+        "43/laser": {
+          "visible": false
+        },
+        "43/ultrasound": {
+          "visible": false
+        },
+        "44/laser": {
+          "visible": false
+        },
+        "44/ultrasound": {
+          "visible": false
+        },
+        "45/laser": {
+          "visible": false
+        },
+        "45/ultrasound": {
+          "visible": false
+        },
+        "46/laser": {
+          "visible": false
+        },
+        "46/ultrasound": {
+          "visible": false
+        },
+        "47/laser": {
+          "visible": false
+        },
+        "47/ultrasound": {
+          "visible": false
+        },
+        "48/laser": {
+          "visible": false
+        },
+        "48/ultrasound": {
+          "visible": false
+        },
+        "49/laser": {
+          "visible": false
+        },
+        "49/ultrasound": {
+          "visible": false
+        },
+        "5/laser": {
+          "visible": false
+        },
+        "5/ultrasound": {
+          "visible": false
+        },
+        "50/laser": {
+          "visible": false
+        },
+        "50/ultrasound": {
+          "visible": false
+        },
+        "51/laser": {
+          "visible": false
+        },
+        "51/ultrasound": {
+          "visible": false
+        },
+        "52/laser": {
+          "visible": false
+        },
+        "52/ultrasound": {
+          "visible": false
+        },
+        "53/laser": {
+          "visible": false
+        },
+        "53/ultrasound": {
+          "visible": false
+        },
+        "54/laser": {
+          "visible": false
+        },
+        "54/ultrasound": {
+          "visible": false
+        },
+        "55/laser": {
+          "visible": false
+        },
+        "55/ultrasound": {
+          "visible": false
+        },
+        "56/laser": {
+          "visible": false
+        },
+        "56/ultrasound": {
+          "visible": false
+        },
+        "57/laser": {
+          "visible": false
+        },
+        "57/ultrasound": {
+          "visible": false
+        },
+        "58/laser": {
+          "visible": false
+        },
+        "58/ultrasound": {
+          "visible": false
+        },
+        "59/laser": {
+          "visible": false
+        },
+        "59/ultrasound": {
+          "visible": false
+        },
+        "6/laser": {
+          "visible": false
+        },
+        "6/ultrasound": {
+          "visible": false
+        },
+        "60/laser": {
+          "visible": false
+        },
+        "60/ultrasound": {
+          "visible": false
+        },
+        "61/laser": {
+          "visible": false
+        },
+        "61/ultrasound": {
+          "visible": false
+        },
+        "62/laser": {
+          "visible": false
+        },
+        "62/ultrasound": {
+          "visible": false
+        },
+        "63/laser": {
+          "visible": false
+        },
+        "63/ultrasound": {
+          "visible": false
+        },
+        "64/laser": {
+          "visible": false
+        },
+        "64/ultrasound": {
+          "visible": false
+        },
+        "65/laser": {
+          "visible": false
+        },
+        "65/ultrasound": {
+          "visible": false
+        },
+        "66/laser": {
+          "visible": false
+        },
+        "66/ultrasound": {
+          "visible": false
+        },
+        "67/laser": {
+          "visible": false
+        },
+        "67/ultrasound": {
+          "visible": false
+        },
+        "68/laser": {
+          "visible": false
+        },
+        "68/ultrasound": {
+          "visible": false
+        },
+        "69/laser": {
+          "visible": false
+        },
+        "69/ultrasound": {
+          "visible": false
+        },
+        "7/laser": {
+          "visible": false
+        },
+        "7/ultrasound": {
+          "visible": false
+        },
+        "70/laser": {
+          "visible": false
+        },
+        "70/ultrasound": {
+          "visible": false
+        },
+        "71/laser": {
+          "visible": false
+        },
+        "71/ultrasound": {
+          "visible": false
+        },
+        "72/laser": {
+          "visible": false
+        },
+        "72/ultrasound": {
+          "visible": false
+        },
+        "73/laser": {
+          "visible": false
+        },
+        "73/ultrasound": {
+          "visible": false
+        },
+        "74/laser": {
+          "visible": false
+        },
+        "74/ultrasound": {
+          "visible": false
+        },
+        "75/laser": {
+          "visible": false
+        },
+        "75/ultrasound": {
+          "visible": false
+        },
+        "76/laser": {
+          "visible": false
+        },
+        "76/ultrasound": {
+          "visible": false
+        },
+        "77/laser": {
+          "visible": false
+        },
+        "77/ultrasound": {
+          "visible": false
+        },
+        "78/laser": {
+          "visible": false
+        },
+        "78/ultrasound": {
+          "visible": false
+        },
+        "79/laser": {
+          "visible": false
+        },
+        "79/ultrasound": {
+          "visible": false
+        },
+        "8/laser": {
+          "visible": false
+        },
+        "8/ultrasound": {
+          "visible": false
+        },
+        "80/laser": {
+          "visible": false
+        },
+        "80/ultrasound": {
+          "visible": false
+        },
+        "81/laser": {
+          "visible": false
+        },
+        "81/ultrasound": {
+          "visible": false
+        },
+        "82/laser": {
+          "visible": false
+        },
+        "82/ultrasound": {
+          "visible": false
+        },
+        "83/laser": {
+          "visible": false
+        },
+        "83/ultrasound": {
+          "visible": false
+        },
+        "84/laser": {
+          "visible": false
+        },
+        "84/ultrasound": {
+          "visible": false
+        },
+        "85/laser": {
+          "visible": false
+        },
+        "85/ultrasound": {
+          "visible": false
+        },
+        "86/laser": {
+          "visible": false
+        },
+        "86/ultrasound": {
+          "visible": false
+        },
+        "87/laser": {
+          "visible": false
+        },
+        "87/ultrasound": {
+          "visible": false
+        },
+        "88/laser": {
+          "visible": false
+        },
+        "88/ultrasound": {
+          "visible": false
+        },
+        "89/laser": {
+          "visible": false
+        },
+        "89/ultrasound": {
+          "visible": false
+        },
+        "9/laser": {
+          "visible": false
+        },
+        "9/ultrasound": {
+          "visible": false
+        },
+        "90/laser": {
+          "visible": false
+        },
+        "90/ultrasound": {
+          "visible": false
+        },
+        "91/laser": {
+          "visible": false
+        },
+        "91/ultrasound": {
+          "visible": false
+        },
+        "92/laser": {
+          "visible": false
+        },
+        "92/ultrasound": {
+          "visible": false
+        },
+        "93/laser": {
+          "visible": false
+        },
+        "93/ultrasound": {
+          "visible": false
+        },
+        "94/laser": {
+          "visible": false
+        },
+        "94/ultrasound": {
+          "visible": false
+        },
+        "95/laser": {
+          "visible": false
+        },
+        "95/ultrasound": {
+          "visible": false
+        },
+        "96/laser": {
+          "visible": false
+        },
+        "96/ultrasound": {
+          "visible": false
+        },
+        "97/laser": {
+          "visible": false
+        },
+        "97/ultrasound": {
+          "visible": false
+        },
+        "98/laser": {
+          "visible": false
+        },
+        "98/ultrasound": {
+          "visible": false
+        },
+        "99/laser": {
+          "visible": false
+        },
+        "99/ultrasound": {
+          "visible": false
+        },
+        "10/pose": {
+          "visible": false
+        },
+        "100/pose": {
+          "visible": false
+        },
+        "11/pose": {
+          "visible": false
+        },
+        "12/pose": {
+          "visible": false
+        },
+        "13/pose": {
+          "visible": false
+        },
+        "14/pose": {
+          "visible": false
+        },
+        "15/pose": {
+          "visible": false
+        },
+        "16/pose": {
+          "visible": false
+        },
+        "17/pose": {
+          "visible": false
+        },
+        "18/pose": {
+          "visible": false
+        },
+        "19/pose": {
+          "visible": false
+        },
+        "2/pose": {
+          "visible": false
+        },
+        "20/pose": {
+          "visible": false
+        },
+        "21/pose": {
+          "visible": false
+        },
+        "22/pose": {
+          "visible": false
+        },
+        "23/pose": {
+          "visible": false
+        },
+        "24/pose": {
+          "visible": false
+        },
+        "25/pose": {
+          "visible": false
+        },
+        "26/pose": {
+          "visible": false
+        },
+        "27/pose": {
+          "visible": false
+        },
+        "28/pose": {
+          "visible": false
+        },
+        "29/pose": {
+          "visible": false
+        },
+        "3/pose": {
+          "visible": false
+        },
+        "30/pose": {
+          "visible": false
+        },
+        "31/pose": {
+          "visible": false
+        },
+        "32/pose": {
+          "visible": false
+        },
+        "33/pose": {
+          "visible": false
+        },
+        "34/pose": {
+          "visible": false
+        },
+        "35/pose": {
+          "visible": false
+        },
+        "36/pose": {
+          "visible": false
+        },
+        "37/pose": {
+          "visible": false
+        },
+        "38/pose": {
+          "visible": false
+        },
+        "39/pose": {
+          "visible": false
+        },
+        "4/pose": {
+          "visible": false
+        },
+        "41/pose": {
+          "visible": false
+        },
+        "42/pose": {
+          "visible": false
+        },
+        "43/pose": {
+          "visible": false
+        },
+        "44/pose": {
+          "visible": false
+        },
+        "45/pose": {
+          "visible": false
+        },
+        "46/pose": {
+          "visible": false
+        },
+        "47/pose": {
+          "visible": false
+        },
+        "48/pose": {
+          "visible": false
+        },
+        "49/pose": {
+          "visible": false
+        },
+        "5/pose": {
+          "visible": false
+        },
+        "50/pose": {
+          "visible": false
+        },
+        "51/pose": {
+          "visible": false
+        },
+        "52/pose": {
+          "visible": false
+        },
+        "53/pose": {
+          "visible": false
+        },
+        "54/pose": {
+          "visible": false
+        },
+        "55/pose": {
+          "visible": false
+        },
+        "56/pose": {
+          "visible": false
+        },
+        "57/pose": {
+          "visible": false
+        },
+        "58/pose": {
+          "visible": false
+        },
+        "59/pose": {
+          "visible": false
+        },
+        "6/pose": {
+          "visible": false
+        },
+        "60/pose": {
+          "visible": false
+        },
+        "61/pose": {
+          "visible": false
+        },
+        "62/pose": {
+          "visible": false
+        },
+        "63/pose": {
+          "visible": false
+        },
+        "64/pose": {
+          "visible": false
+        },
+        "65/pose": {
+          "visible": false
+        },
+        "66/pose": {
+          "visible": false
+        },
+        "67/pose": {
+          "visible": false
+        },
+        "68/pose": {
+          "visible": false
+        },
+        "69/pose": {
+          "visible": false
+        },
+        "7/pose": {
+          "visible": false
+        },
+        "70/pose": {
+          "visible": false
+        },
+        "71/pose": {
+          "visible": false
+        },
+        "72/pose": {
+          "visible": false
+        },
+        "73/pose": {
+          "visible": false
+        },
+        "74/pose": {
+          "visible": false
+        },
+        "75/pose": {
+          "visible": false
+        },
+        "76/pose": {
+          "visible": false
+        },
+        "77/pose": {
+          "visible": false
+        },
+        "78/pose": {
+          "visible": false
+        },
+        "79/pose": {
+          "visible": false
+        },
+        "8/pose": {
+          "visible": false
+        },
+        "80/pose": {
+          "visible": false
+        },
+        "81/pose": {
+          "visible": false
+        },
+        "82/pose": {
+          "visible": false
+        },
+        "83/pose": {
+          "visible": false
+        },
+        "84/pose": {
+          "visible": false
+        },
+        "85/pose": {
+          "visible": false
+        },
+        "86/pose": {
+          "visible": false
+        },
+        "87/pose": {
+          "visible": false
+        },
+        "88/pose": {
+          "visible": false
+        },
+        "89/pose": {
+          "visible": false
+        },
+        "9/pose": {
+          "visible": false
+        },
+        "90/pose": {
+          "visible": false
+        },
+        "91/pose": {
+          "visible": false
+        },
+        "92/pose": {
+          "visible": false
+        },
+        "93/pose": {
+          "visible": false
+        },
+        "94/pose": {
+          "visible": false
+        },
+        "95/pose": {
+          "visible": false
+        },
+        "96/pose": {
+          "visible": false
+        },
+        "97/pose": {
+          "visible": false
+        },
+        "98/pose": {
+          "visible": false
+        },
+        "99/pose": {
+          "visible": false
+        },
+        "10/path": {
+          "visible": false
+        },
+        "100/path": {
+          "visible": false
+        },
+        "11/path": {
+          "visible": false
+        },
+        "12/path": {
+          "visible": false
+        },
+        "13/path": {
+          "visible": false
+        },
+        "14/path": {
+          "visible": false
+        },
+        "15/path": {
+          "visible": false
+        },
+        "16/path": {
+          "visible": false
+        },
+        "17/path": {
+          "visible": false
+        },
+        "18/path": {
+          "visible": false
+        },
+        "19/path": {
+          "visible": false
+        },
+        "2/path": {
+          "visible": false
+        },
+        "20/path": {
+          "visible": false
+        },
+        "21/path": {
+          "visible": false
+        },
+        "22/path": {
+          "visible": false
+        },
+        "23/path": {
+          "visible": false
+        },
+        "24/path": {
+          "visible": false
+        },
+        "25/path": {
+          "visible": false
+        },
+        "26/path": {
+          "visible": false
+        },
+        "27/path": {
+          "visible": false
+        },
+        "28/path": {
+          "visible": false
+        },
+        "29/path": {
+          "visible": false
+        },
+        "3/path": {
+          "visible": false
+        },
+        "30/path": {
+          "visible": false
+        },
+        "31/path": {
+          "visible": false
+        },
+        "32/path": {
+          "visible": false
+        },
+        "33/path": {
+          "visible": false
+        },
+        "34/path": {
+          "visible": false
+        },
+        "35/path": {
+          "visible": false
+        },
+        "36/path": {
+          "visible": false
+        },
+        "37/path": {
+          "visible": false
+        },
+        "38/path": {
+          "visible": false
+        },
+        "39/path": {
+          "visible": false
+        },
+        "4/path": {
+          "visible": false
+        },
+        "41/path": {
+          "visible": false
+        },
+        "42/path": {
+          "visible": false
+        },
+        "43/path": {
+          "visible": false
+        },
+        "44/path": {
+          "visible": false
+        },
+        "45/path": {
+          "visible": false
+        },
+        "46/path": {
+          "visible": false
+        },
+        "47/path": {
+          "visible": false
+        },
+        "48/path": {
+          "visible": false
+        },
+        "49/path": {
+          "visible": false
+        },
+        "5/path": {
+          "visible": false
+        },
+        "50/path": {
+          "visible": false
+        },
+        "51/path": {
+          "visible": false
+        },
+        "52/path": {
+          "visible": false
+        },
+        "53/path": {
+          "visible": false
+        },
+        "54/path": {
+          "visible": false
+        },
+        "55/path": {
+          "visible": false
+        },
+        "56/path": {
+          "visible": false
+        },
+        "57/path": {
+          "visible": false
+        },
+        "58/path": {
+          "visible": false
+        },
+        "59/path": {
+          "visible": false
+        },
+        "6/path": {
+          "visible": false
+        },
+        "60/path": {
+          "visible": false
+        },
+        "61/path": {
+          "visible": false
+        },
+        "62/path": {
+          "visible": false
+        },
+        "63/path": {
+          "visible": false
+        },
+        "64/path": {
+          "visible": false
+        },
+        "65/path": {
+          "visible": false
+        },
+        "66/path": {
+          "visible": false
+        },
+        "67/path": {
+          "visible": false
+        },
+        "68/path": {
+          "visible": false
+        },
+        "69/path": {
+          "visible": false
+        },
+        "7/path": {
+          "visible": false
+        },
+        "70/path": {
+          "visible": false
+        },
+        "71/path": {
+          "visible": false
+        },
+        "72/path": {
+          "visible": false
+        },
+        "73/path": {
+          "visible": false
+        },
+        "74/path": {
+          "visible": false
+        },
+        "75/path": {
+          "visible": false
+        },
+        "76/path": {
+          "visible": false
+        },
+        "77/path": {
+          "visible": false
+        },
+        "78/path": {
+          "visible": false
+        },
+        "79/path": {
+          "visible": false
+        },
+        "8/path": {
+          "visible": false
+        },
+        "80/path": {
+          "visible": false
+        },
+        "81/path": {
+          "visible": false
+        },
+        "82/path": {
+          "visible": false
+        },
+        "83/path": {
+          "visible": false
+        },
+        "84/path": {
+          "visible": false
+        },
+        "85/path": {
+          "visible": false
+        },
+        "86/path": {
+          "visible": false
+        },
+        "87/path": {
+          "visible": false
+        },
+        "88/path": {
+          "visible": false
+        },
+        "89/path": {
+          "visible": false
+        },
+        "9/path": {
+          "visible": false
+        },
+        "90/path": {
+          "visible": false
+        },
+        "91/path": {
+          "visible": false
+        },
+        "92/path": {
+          "visible": false
+        },
+        "93/path": {
+          "visible": false
+        },
+        "94/path": {
+          "visible": false
+        },
+        "95/path": {
+          "visible": false
+        },
+        "96/path": {
+          "visible": false
+        },
+        "97/path": {
+          "visible": false
+        },
+        "98/path": {
+          "visible": false
+        },
+        "99/path": {
+          "visible": false
+        },
+        "success/scene": {
+          "visible": true
+        },
+        "partial/scene": {
+          "visible": false
+        },
+        "collision/scene": {
+          "visible": false
+        },
+        "timeout/scene": {
+          "visible": false
+        }
+      },
+      "layers": {
+        "grid": {
+          "visible": true,
+          "frameLocked": true,
+          "label": "Grid",
+          "instanceId": "b0a2c578-3b51-441d-a640-c48d4e52558a",
+          "layerId": "foxglove.Grid",
+          "size": 10,
+          "divisions": 10,
+          "lineWidth": 1,
+          "color": "#248eff",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "publish": {
+        "type": "point",
+        "poseTopic": "/move_base_simple/goal",
+        "pointTopic": "/clicked_point",
+        "poseEstimateTopic": "/initialpose",
+        "poseEstimateXDeviation": 0.5,
+        "poseEstimateYDeviation": 0.5,
+        "poseEstimateThetaDeviation": 0.26179939
+      },
+      "imageMode": {},
+      "followTf": "odom",
+      "foxglovePanelTitle": "Success Runs"
+    },
+    "Plot!2fim6of": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "1/path_smoothness.value",
+          "enabled": true,
+          "color": "#e34f4f"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "40/path_smoothness.value",
+          "enabled": true,
+          "color": "#4cf55f"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "54/path_smoothness.value",
+          "enabled": true,
+          "color": "#728ff7"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "top",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 97,
+      "foxglovePanelTitle": "Path Smoothness"
+    },
+    "Plot!1k7im31": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "1/speed.speed",
+          "enabled": true,
+          "color": "#e34f4f"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "40/speed.speed",
+          "enabled": true,
+          "color": "#4cf55f"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "54/speed.speed",
+          "enabled": true,
+          "color": "#728ff7"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "top",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 97,
+      "foxglovePanelTitle": "Speed"
+    },
+    "Plot!3jrv6qv": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "1/battery.battery",
+          "enabled": true,
+          "color": "#e34f4f"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "40/battery.battery",
+          "enabled": true,
+          "color": "#4cf55f"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "54/battery.battery",
+          "enabled": true,
+          "color": "#728ff7"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "timeWindowMode": "automatic",
+      "foxglovePanelTitle": "Battery"
+    },
+    "Plot!2u5zp18": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/results.partial",
+          "enabled": true,
+          "color": "#0000ff",
+          "label": "Partial",
+          "lineSize": 5,
+          "xValuePath": "/results.results"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/results.collision",
+          "enabled": true,
+          "color": "#ff0000",
+          "label": "Collision",
+          "lineSize": 5
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/results.timeout",
+          "enabled": true,
+          "color": "#ffff00",
+          "label": "Timeout",
+          "lineSize": 5
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/results.success",
+          "enabled": true,
+          "color": "#00ff00",
+          "label": "Success",
+          "lineSize": 5
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "top",
+      "showPlotValuesInLegend": false,
+      "isSynced": false,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 126,
+      "xAxisPath": {
+        "value": "/results.results"
+      },
+      "foxglovePanelTitle": "Sum of results"
+    },
+    "Plot!2smx1ch": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/time_taken.time_taken",
+          "enabled": true,
+          "color": "#63d3cd",
+          "label": "Time Taken",
+          "lineSize": 3,
+          "xValuePath": "/time_taken.run_id",
+          "showLine": false
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "top",
+      "showPlotValuesInLegend": false,
+      "isSynced": false,
+      "xAxisVal": "custom",
+      "sidebarDimension": 30,
+      "xAxisPath": {
+        "value": ""
+      },
+      "yAxisLabel": "Time Taken",
+      "xAxisLabel": "RUN ID",
+      "foxglovePanelTitle": "Time taken by run "
+    },
+    "Plot!3negqpb": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/time_taken.time_taken",
+          "enabled": true,
+          "color": "#e34f4f",
+          "xValuePath": "/time_taken.run_id",
+          "showLine": false,
+          "lineSize": 5
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "custom",
+      "sidebarDimension": 240,
+      "xAxisPath": {
+        "value": "/time_taken.run_id"
+      },
+      "xAxisLabel": "ID",
+      "yAxisLabel": "Time Taken"
+    }
+  },
+  "globalVariables": {
+    "selected_id": "id_82"
+  },
+  "userNodes": {},
+  "playbackConfig": {
+    "speed": 1
+  },
+  "layout": {
+    "first": {
+      "first": "3D!hj59ng",
+      "second": {
+        "first": {
+          "first": "3D!fmtvyu",
+          "second": "3D!2ua0h9b",
+          "direction": "column"
+        },
+        "second": {
+          "first": "3D!m1jnqt",
+          "second": "3D!115agn2",
+          "direction": "column"
+        },
+        "direction": "row"
+      },
+      "direction": "column",
+      "splitPercentage": 50.912996777658435
+    },
+    "second": {
+      "first": {
+        "first": {
+          "first": "Plot!2fim6of",
+          "second": {
+            "first": "Plot!1k7im31",
+            "second": "Plot!3jrv6qv",
+            "direction": "column"
+          },
+          "direction": "column",
+          "splitPercentage": 26.31578947368421
+        },
+        "second": {
+          "first": "Plot!2u5zp18",
+          "second": "Plot!2smx1ch",
+          "direction": "column",
+          "splitPercentage": 33.619763694951665
+        },
+        "direction": "row"
+      },
+      "second": "Plot!3negqpb",
+      "direction": "column",
+      "splitPercentage": 100
+    },
+    "direction": "row"
+  }
+}
