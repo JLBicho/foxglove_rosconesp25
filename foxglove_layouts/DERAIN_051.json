@@ -1,0 +1,470 @@
+{
+  "configById": {
+    "3D!silzc7": {
+      "cameraState": {
+        "perspective": true,
+        "distance": 45.44146361602482,
+        "phi": 67.6387730038355,
+        "thetaOffset": 48.099535787851806,
+        "targetOffset": [
+          2.4903900163846795,
+          -1.4927593906160697,
+          -1.0457730615039206e-17
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "targetOrientation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "fovy": 45,
+        "near": 0.5,
+        "far": 5000
+      },
+      "followMode": "follow-pose",
+      "followTf": "base",
+      "scene": {},
+      "transforms": {},
+      "topics": {
+        "/pose": {
+          "visible": true
+        },
+        "1/pose": {
+          "visible": false
+        },
+        "10/pose": {
+          "visible": false
+        },
+        "100/pose": {
+          "visible": false
+        },
+        "11/pose": {
+          "visible": false
+        },
+        "1/path": {
+          "visible": true,
+          "type": "line",
+          "gradient": [
+            "#6bff7cff",
+            "#6bffbb80"
+          ]
+        },
+        "10/path": {
+          "visible": true,
+          "type": "line",
+          "gradient": [
+            "#ff6b6bff",
+            "#fc001980"
+          ]
+        },
+        "100/path": {
+          "visible": true,
+          "type": "line",
+          "gradient": [
+            "#6b81ffff",
+            "#0a00ff80"
+          ]
+        },
+        "11/path": {
+          "visible": true,
+          "type": "line",
+          "gradient": [
+            "#e3ff6bff",
+            "#ffd86b80"
+          ]
+        },
+        "99/path": {
+          "visible": false
+        },
+        "98/path": {
+          "visible": false
+        },
+        "9/path": {
+          "visible": false
+        },
+        "82/path": {
+          "visible": false
+        },
+        "35/path": {
+          "visible": false
+        },
+        "20/path": {
+          "visible": true,
+          "type": "line",
+          "gradient": [
+            "#00eaffff",
+            "#00f6e280"
+          ]
+        },
+        "21/path": {
+          "visible": true,
+          "axisScale": 0.2,
+          "type": "line",
+          "gradient": [
+            "#6bff83ff",
+            "#6bff7880"
+          ]
+        },
+        "22/path": {
+          "visible": true,
+          "type": "line",
+          "gradient": [
+            "#bb6bffff",
+            "#ff6bf380"
+          ]
+        },
+        "23/path": {
+          "visible": true,
+          "type": "line",
+          "gradient": [
+            "#6bff75ff",
+            "#6b70ff80"
+          ]
+        },
+        "radar": {
+          "visible": true
+        },
+        "/radar": {
+          "visible": true
+        },
+        "/lidar": {
+          "visible": true,
+          "colorField": "intensity",
+          "colorMode": "colormap",
+          "colorMap": "turbo",
+          "stixelsEnabled": false,
+          "explicitAlpha": 1
+        },
+        "/innoviz": {
+          "visible": true,
+          "colorField": "_auto_distance",
+          "colorMode": "colormap",
+          "colorMap": "turbo"
+        },
+        "/ouster": {
+          "visible": true,
+          "colorField": "_auto_distance",
+          "colorMode": "colormap",
+          "colorMap": "turbo"
+        },
+        "/radar_pcd": {
+          "visible": true,
+          "colorField": "intensity",
+          "colorMode": "colormap",
+          "colorMap": "turbo"
+        },
+        "/lidars_merged": {
+          "visible": true,
+          "colorField": "_auto_distance",
+          "colorMode": "colormap",
+          "colorMap": "turbo"
+        },
+        "/flir": {
+          "visible": false
+        },
+        "051/ouster": {
+          "visible": true,
+          "colorField": "_auto_distance",
+          "colorMode": "colormap",
+          "colorMap": "turbo"
+        },
+        "051/radar": {
+          "visible": true
+        },
+        "051/innoviz": {
+          "visible": true,
+          "colorField": "_auto_distance",
+          "colorMode": "colormap",
+          "colorMap": "turbo"
+        }
+      },
+      "layers": {
+        "grid": {
+          "visible": true,
+          "frameLocked": true,
+          "label": "Grid",
+          "instanceId": "2881bac6-7d8b-4d0f-aa14-4df96c31ea68",
+          "layerId": "foxglove.Grid",
+          "size": 10,
+          "divisions": 10,
+          "lineWidth": 1,
+          "color": "#248eff",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "publish": {
+        "type": "point",
+        "poseTopic": "/move_base_simple/goal",
+        "pointTopic": "/clicked_point",
+        "poseEstimateTopic": "/initialpose",
+        "poseEstimateXDeviation": 0.5,
+        "poseEstimateYDeviation": 0.5,
+        "poseEstimateThetaDeviation": 0.26179939
+      },
+      "imageMode": {}
+    },
+    "Image!18zj07i": {
+      "cameraState": {
+        "distance": 20,
+        "perspective": true,
+        "phi": 60,
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "targetOffset": [
+          0,
+          0,
+          0
+        ],
+        "targetOrientation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "thetaOffset": 45,
+        "fovy": 45,
+        "near": 0.5,
+        "far": 5000
+      },
+      "followMode": "follow-pose",
+      "scene": {},
+      "transforms": {},
+      "topics": {},
+      "layers": {},
+      "publish": {
+        "type": "point",
+        "poseTopic": "/move_base_simple/goal",
+        "pointTopic": "/clicked_point",
+        "poseEstimateTopic": "/initialpose",
+        "poseEstimateXDeviation": 0.5,
+        "poseEstimateYDeviation": 0.5,
+        "poseEstimateThetaDeviation": 0.26179939
+      },
+      "imageMode": {
+        "imageTopic": "051/arena"
+      }
+    },
+    "Image!1humtr9": {
+      "cameraState": {
+        "distance": 20,
+        "perspective": true,
+        "phi": 60,
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "targetOffset": [
+          0,
+          0,
+          0
+        ],
+        "targetOrientation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "thetaOffset": 45,
+        "fovy": 45,
+        "near": 0.5,
+        "far": 5000
+      },
+      "followMode": "follow-pose",
+      "scene": {},
+      "transforms": {},
+      "topics": {},
+      "layers": {},
+      "publish": {
+        "type": "point",
+        "poseTopic": "/move_base_simple/goal",
+        "pointTopic": "/clicked_point",
+        "poseEstimateTopic": "/initialpose",
+        "poseEstimateXDeviation": 0.5,
+        "poseEstimateYDeviation": 0.5,
+        "poseEstimateThetaDeviation": 0.26179939
+      },
+      "imageMode": {
+        "imageTopic": "051/flir"
+      }
+    },
+    "Plot!44bid0t": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "051/weather.WindSpeed",
+          "enabled": true,
+          "color": "#4e98e2",
+          "label": "WindSpeed"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "Plot!12v8wya": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "051/weather.Pressure",
+          "enabled": true,
+          "color": "#4e98e2",
+          "label": "Pressure"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "Plot!17tdvhk": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "051/weather.WindDirection",
+          "enabled": true,
+          "color": "#f5774d",
+          "label": "WindDirection"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "Plot!27y9hx9": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "051/weather.DewPoint",
+          "enabled": true,
+          "color": "#4e98e2",
+          "label": "DewPoint"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "Plot!3krcbjo": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "051/weather.DeviceTemperature",
+          "enabled": true,
+          "color": "#f5774d",
+          "label": "DeviceTemperature"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "Plot!361xenq": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "051/weather.RelativeHumidity",
+          "enabled": true,
+          "color": "#4e98e2",
+          "label": "RelativeHumidity"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "Tab!2gioqsf": {
+      "activeTabIdx": 0,
+      "tabs": [
+        {
+          "title": "Seq000",
+          "layout": {
+            "first": {
+              "first": "3D!silzc7",
+              "second": {
+                "first": "Image!18zj07i",
+                "second": "Image!1humtr9",
+                "direction": "row"
+              },
+              "direction": "row"
+            },
+            "second": {
+              "first": {
+                "first": "Plot!44bid0t",
+                "second": "Plot!12v8wya",
+                "direction": "row"
+              },
+              "second": {
+                "first": {
+                  "first": "Plot!17tdvhk",
+                  "second": "Plot!27y9hx9",
+                  "direction": "row"
+                },
+                "second": {
+                  "first": "Plot!3krcbjo",
+                  "second": "Plot!361xenq",
+                  "direction": "row"
+                },
+                "direction": "column"
+              },
+              "direction": "column"
+            },
+            "direction": "column"
+          }
+        }
+      ]
+    }
+  },
+  "globalVariables": {},
+  "userNodes": {},
+  "playbackConfig": {
+    "speed": 1
+  },
+  "layout": "Tab!2gioqsf"
+}

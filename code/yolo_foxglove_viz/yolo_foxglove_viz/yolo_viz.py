@@ -1,18 +1,19 @@
-from geometry_msgs.msg import Quaternion
+import colorsys
+import math
+
 import rclpy
 from rclpy.node import Node
+from geometry_msgs.msg import Quaternion, Pose, Point
 from yolo_msgs.msg import DetectionArray, BoundingBox3D
 from foxglove_msgs.msg import SceneEntity, SceneUpdate, CubePrimitive, TextPrimitive
-from geometry_msgs.msg import Pose, Point
 
 
-def value_to_rgb(value: float):
+def value_to_rgb(value: float) -> tuple[float, float, float]:
     """
     Map a float in [0, 6] to an RGB color.
     0 -> cold blue, 3 -> green, 6 -> red.
     Returns (r, g, b) as floats in [0,1] by default or ints 0..255 if as_int=True.
     """
-    import colorsys
 
     # clamp input
     v = max(0.0, min(6.0, float(value)))
@@ -29,11 +30,8 @@ def value_to_rgb(value: float):
     return (r, g, b)
 
 
-def distance3d(x, y, z):
+def distance3d(x, y, z) -> float:
     return (x**2 + y**2 + z**2)**0.5
-
-
-# ...existing code...
 
 
 def _to_tuple(q: Quaternion):
@@ -60,13 +58,13 @@ def _quaternion_multiply(a, b):
     return (x, y, z, w)
 
 
-def _quaternion_from_euler(roll: float, pitch: float, yaw: float):
+def _quaternion_from_euler(roll: float, pitch: float, yaw: float) -> tuple[float, float, float, float]:
     """
     Create quaternion (x,y,z,w) from roll, pitch, yaw (radians).
     Uses standard Tait-Bryan ZYX (yaw-pitch-roll) convention internally to build
     the quaternion for the combined rotation.
     """
-    import math
+
     cr = math.cos(roll * 0.5)
     sr = math.sin(roll * 0.5)
     cp = math.cos(pitch * 0.5)
@@ -81,7 +79,8 @@ def _quaternion_from_euler(roll: float, pitch: float, yaw: float):
     return (x, y, z, w)
 
 
-def rotate_quaternion_by_rpy(q: Quaternion, roll: float = 0.0, pitch: float = 0.0, yaw: float = 0.0, post_multiply: bool = True) -> Quaternion:
+def rotate_quaternion_by_rpy(q: Quaternion, roll: float = 0.0, pitch: float = 0.0,
+                             yaw: float = 0.0, post_multiply: bool = True) -> Quaternion:
     """
     Rotate a geometry_msgs.msg.Quaternion by given roll, pitch, yaw (radians).
     - q: original orientation (geometry_msgs.msg.Quaternion)
@@ -112,6 +111,15 @@ class YoloToFoxgloveNode(Node):
         self.sub = self.create_subscription(
             DetectionArray, 'yolo/detections_3d', self.cb_detections, 10)
         self.get_logger().info('yolo_to_foxglove node started')
+        self.scene_update = SceneUpdate()
+
+    def get_dist_color(self, bbox3d: BoundingBox3D) -> tuple[float, float, float, float]:
+        dist = distance3d(
+            bbox3d.center.position.x,
+            bbox3d.center.position.y,
+            bbox3d.center.position.z)
+        r, g, b = value_to_rgb(dist)
+        return dist, r, g, b
 
     def detection_to_viz(self, detection) -> CubePrimitive:
         class_name = detection.class_name
@@ -131,11 +139,8 @@ class YoloToFoxgloveNode(Node):
         cube.size.y = bbox3d.size.y
         cube.size.z = bbox3d.size.z
 
-        dist = distance3d(
-            bbox3d.center.position.x,
-            bbox3d.center.position.y,
-            bbox3d.center.position.z)
-        r, g, b = value_to_rgb(dist)
+        dist, r, g, b = self.get_dist_color(bbox3d)
+
         cube.color.r = r
         cube.color.g = g
         cube.color.b = b
@@ -184,13 +189,14 @@ class YoloToFoxgloveNode(Node):
         return label, score_txt, id_txt, cube
 
     def cb_detections(self, msg: DetectionArray):
-        self.get_logger().info(f"Received {len(msg.detections)} detections")
-        scene_update = SceneUpdate()
-        ent = SceneEntity()
+        self.get_logger().debug(f"Received {len(msg.detections)} detections")
 
+        self.scene_update.entities.clear()
         for i, det in enumerate(msg.detections):
-            self.get_logger().info(f"Processing detection {i}")
-            ent.frame_id = "camera_link"
+            self.get_logger().debug(f"Processing detection {i}")
+            ent = SceneEntity()
+            ent.frame_id = "base_link"
+
             label, score, id_txt, cube = self.detection_to_viz(det)
 
             ent.texts.append(label)
@@ -198,8 +204,8 @@ class YoloToFoxgloveNode(Node):
             ent.texts.append(id_txt)
             ent.cubes.append(cube)
 
-        scene_update.entities.append(ent)
-        self.pub.publish(scene_update)
+            self.scene_update.entities.append(ent)
+        self.pub.publish(self.scene_update)
 
 
 def main(args=None):
@@ -215,4 +221,5 @@ def main(args=None):
 
 
 if __name__ == '__main__':
+
     main()
