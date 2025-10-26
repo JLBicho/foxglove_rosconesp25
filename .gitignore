@@ -6,7 +6,7 @@ __pycache__/
 **/*.csv
 **/*.bin
 **/*.json
-**/*.png
+data/*.png
 **/*.jpg
 **/*.jpeg
 **/*.label

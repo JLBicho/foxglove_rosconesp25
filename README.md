@@ -1,5 +1,7 @@
 # Foxglove Workshop en ROSCon España 2025
 
+![ROSCon España 2025](roscon_image.png "ROSCon España 2025")
+
 En este repositorio se encuentra el código necesario para el workshop de Foxglove en la ROSCon España 2025.
 
 Descargar las instrucciones previas [aquí](https://drive.google.com/file/d/1Wzwczkz2BwZg3huZVlFEv-e5bWdUhn4r/view?usp=sharing).
