@@ -154,7 +154,7 @@ class YoloToFoxgloveNode(Node):
         label.color.b = b
         label.color.a = 0.5
         label.pose = Pose()
-        label.pose.position.x = bbox3d.center.position.x - bbox3d.size.y / 2
+        label.pose.position.x = bbox3d.center.position.x - bbox3d.size.x / 2
         label.pose.position.y = bbox3d.center.position.y + bbox3d.size.y / 2
         label.pose.position.z = bbox3d.center.position.z + bbox3d.size.z / 2
         q = rotate_quaternion_by_rpy(
@@ -169,7 +169,7 @@ class YoloToFoxgloveNode(Node):
         score_txt.color.b = b
         score_txt.color.a = 0.5
         score_txt.pose = Pose()
-        score_txt.pose.position.x = bbox3d.center.position.x - bbox3d.size.y / 2
+        score_txt.pose.position.x = bbox3d.center.position.x - bbox3d.size.x / 2
         score_txt.pose.position.y = bbox3d.center.position.y - bbox3d.size.y / 2
         score_txt.pose.position.z = bbox3d.center.position.z + bbox3d.size.z / 2
         score_txt.pose.orientation = q
@@ -182,7 +182,7 @@ class YoloToFoxgloveNode(Node):
         id_txt.color.b = b
         id_txt.color.a = 0.5
         id_txt.pose = Pose()
-        id_txt.pose.position.x = bbox3d.center.position.x - bbox3d.size.y / 2
+        id_txt.pose.position.x = bbox3d.center.position.x - bbox3d.size.x / 2
         id_txt.pose.position.y = bbox3d.center.position.y
         id_txt.pose.position.z = bbox3d.center.position.z + bbox3d.size.z / 2
         id_txt.pose.orientation = q
